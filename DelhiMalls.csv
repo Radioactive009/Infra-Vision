@@ -1,0 +1,56 @@
+email,air_conditioning,operator,@geometry,wikipedia,@id,addr:city,building,website,toilets:access,building:levels,roof:shape,opening_hours:cinema,opening_hours:restaurant,capacity,building:part,addr:postcode,landuse,addr:housenumber,toilets:wheelchair,cuisine,description,wheelchair,type,toilets,check_date,name,name:hi,building:levels:underground,layer,name:en,supervised,brand,wikidata,currency:INR,fee,shop,short_name,phone,addr:street,opening_hours,latitude,longitude
+,,,center,,relation/2732576,,yes,,,2,,,,,,,,,,,,,multipolygon,,,Soul Mall,,,,,,,,,,mall,,,,,28.5963058,77.036184
+,,,center,,relation/17653225,New Delhi,retail,,yes,6,flat,,,,,110070,,2,yes,,,yes,multipolygon,yes,2024-05-26,Ambience Mall,एंबिएंस मॉल,1,,,,,,,,mall,,,Nelson Mandela Marg,10:00-22:00,28.5412059,77.1548991
+,,,center,en:Nexus Select Citywalk,relation/19112421,,,,,,,,,,,,,,,,,,multipolygon,,,Select Citywalk,,,,,,,,,,mall,,,,,28.5287117,77.2189918
+,,,center,,relation/19112422,,,,,,,,,,,,,,,,,,multipolygon,,,DLF Avenue,,,,,,,,,,mall,,,,,28.5279601,77.2168419
+,,,center,,relation/19381498,,yes,,,,,,,,,,,,,,,,multipolygon,,,,,,,,,,,,,mall,,,,,28.7156791,77.1344797
+,,,center,en:Metro Walk (Delhi),way/24618045,,,,,,,,,,,,commercial,,,,,,,,,Metro Walk Mall,,,,,,,Q6824770,,,mall,,,,,28.7238803,77.1140537
+,,,center,,way/78180108,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mall,,,,,28.7028873,77.158204
+,,,center,,way/151571969,,,,,,,,,,,,,,,,,,,,,"Commercial Area, Sec 4",,,,,,,,,,mall,,,,,28.6008833,77.0466899
+,,,center,,way/154330052,,,,,,,,,,,,,,,,,,,,,WEST MALL,,,,,,,,,,mall,,,,,28.6298143,77.0796396
+,,,center,,way/171605367,,yes,,,,,,,,,,,,,,,,,,,Aggarwal City Mall,,,1,,,,,,,mall,,,,,28.6901058,77.1341734
+,,,center,,way/191980797,New Delhi,yes,,,4,,,,,yes,110070,,4,yes,,,yes,,,,DLF Emporio,डीएलएफ एम्पोरियो,,,,,,Q5374410,,,mall,,,Nelson Mandela Marg,11:00-21:00,28.5435328,77.1567003
+,,,center,,way/191980803,New Delhi,yes,,,,,10:00 - 02:00,11:00 - 23:00,,,110070,,3,yes,,,yes,,,,DLF Promenade,डीएलएफ प्रोमेनेड,,,,,,,,,mall,,,Nelson Mandela Marg,10:00-22:00,28.5424742,77.1560024
+,,,center,,way/209492487,"Dwarka, New Delhi",,https://www.vegasmall.in,,,,,,,,110078,commercial,,,,,,,,,Vegas Mall,,,,,,,,,,mall,,,Internal road,,28.6010845,77.0296006
+,,Reliance Retail,center,,way/262562931,"Vikaspuri, New Delhi",yes,,,,,,,,,110018,,,,,,,,,,Reliance Mall,,,,,,,,,,mall,,,Guru Virjanand Marg,,28.6319016,77.0680952
+,,,center,,way/265166888,,,,,,,,,,,,retail,,,,,,,,,Pacific Mall,,,,,,,,,,mall,,,,,28.6424447,77.1061135
+sales@unitygroup.in,yes,Unity Group,center,,way/300014142,"Sector- 10, Rohini, Delhi",retail,https://unityone.in/rohini.html,,8,flat,,,200,,110085,,,,,Unity One Rohini is a boutique retail destination which has been developed in collaboration with DMRC. It is one of the first malls in India to be connected via a metro station on the concourse level.,,,,,Unity One,,,,,yes,,,yes,yes,mall,,011-61246666,,,28.7150747,77.116275
+,,,center,,way/302534538,,,,,,,,,,,,,,yes,,,yes,,yes,,V3S Mall,,,,,,,,,,mall,,,,Mo-Su 11:00-23:00,28.6372006,77.2865082
+,,,center,,way/349778812,Delhi,yes,,,,,,,,,110085,,,,,,,,,,PVR Unity Mall,,,1,,,,,,,mall,,,"Vaishno Mata Mandir Road, Prashant Vihar",,28.7124493,77.1360367
+,,,center,,way/349824167,Delhi,yes,,,,,,,,,110085,,,,,,,,,2024-07-30,North Ex Mall,,,,,,,,,,mall,,,Sector 9 Rohini,Mo-Su 11:00-23:00,28.7144558,77.1294385
+,,,center,,way/350000088,"Sector- 10, Rohini, Delhi",yes,,,5,,,,,,110085,,,,,,,,,,City Centre,,,,,,,,,,mall,,,,,28.7169885,77.1142609
+,,,center,,way/350000100,"Sector- 10, Rohini, Delhi",yes,,,,,,,,,110085,,,,burger;italian;sandwich;coffee_shop;ice_cream,,,,,,D Mall,,,-1,,,,,,,mall,,,,,28.7163404,77.1139684
+,,,center,,way/351654475,,commercial,,,,,,,,,,,,,,,,,yes,,Vardhaman Sunrize Plaza,,,,,,,,,,mall,,,,,28.6003067,77.3202275
+,,,center,,way/352253720,"Karkardooma, Delhi",yes,,,,,,,,,,,Aditya Mega Mall,,,,,,,,Aditya Mega Mall,,,,,,,,,,mall,,,Maharaj Surajmal Marg,,28.6560578,77.3013775
+,,,center,,way/354825513,"Karkardooma, Delhi",yes,,,,,,,,,,,Cross River Mall,,,,,,,,Cross River Mall,क्रॉस रिवर मॉल,,,,,,,,,mall,,,Maharaj Surajmal Marg,Mo-Su 10:00-22:00,28.6574114,77.3022556
+,,,center,,way/488174458,,yes,,,,,,,,,,,,,,,,,,,Unity One Mall,,,1,,,,,,,mall,,,,,28.6284667,77.0761736
+,,,center,,way/509140348,,,,,,,,,,,,,,,,,,,,,Spark Mall,,,,,,,,,,mall,,,,,28.6808374,77.2038495
+,,Reliance Retail,center,,way/531406686,,yes,,,,,,,,,110075,,,,,,,,,,Reliance Mall,,,,,,,,,,mall,,,Internal road,,28.5981287,77.0336035
+,,,center,,way/691053470,,yes,,,,,,,,,110032,,Vikas Mall,,,,,,,,Vikas Mall,,,,,,,,,,mall,,,GT Road,,28.6752254,77.2881665
+,,,center,,way/960937111,,retail,,,,,,,,,,,,,,,,,yes,,Star City,स्टार सिटी,,,Star City,,,,,,mall,,,,Mo-Su 11:00-22:00,28.5921388,77.2968483
+,,,center,,way/1097553113,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mall,,,,,28.5426417,77.1991445
+,,,center,,way/1154073695,,yes,,,,,,,,,,,,,,,,,,,City center,,,,,,,,,,mall,,,,,28.7028165,77.1583222
+,,,center,,way/1186490428,,yes,,,,,,,,,,,,,,,,,,,UnityOne Mall,,,1,,,,,,,mall,,,,,28.660726,77.2975557
+,,,center,,way/1187545687,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mall,,,,,28.7188767,77.1124232
+,yes,,center,,way/1208706468,,yes,https://www.pacificmalls.in/nsp,,5,,,,,,,,,,,,,,,,Pacific Mall,,,,,,,,,,mall,Pacific NSP,,,,28.6946206,77.1539648
+,,,center,,way/1256643021,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mall,,,,,28.5844138,77.1908182
+,,,center,,way/1360717578,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mall,,,,,28.6667525,77.2869084
+,,,center,,way/1385325226,,,,,,,,,,,,,,,,,,,,,DLF South Court,,,,,,,,,,mall,,,,,28.5280671,77.2205073
+,,,center,,way/1385327420,,,,,,,,,,,,,,,,,,,,,MGF Metropolitan,,,,,,,,,,mall,,,,,28.5295669,77.219735
+,,,center,,way/1385357436,,,,,,,,,,,,,,,,,,,,,Square One,,,,,,,,,,mall,,,,,28.5271241,77.2201763
+,,,center,,way/1385357439,,,,,,,,,,,,,,,,,,,,,Southern Park,,,,,,,,,,mall,,,,,28.527604,77.2191042
+,,,center,,way/1416730690,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mall,,,,,28.7157381,77.1349603
+,,,center,,way/1416730693,,yes,,,,,,,,,,,,,,,,multipolygon,,,,,,,,,,,,,mall,,,,,28.7156791,77.1344797
+,,Bogo Bazaar PVT TLD,,,node/4896984981,DELHI,,,,,,,,,,110048,,"M,BLock Market, GK!,",,,Online Shopping Destination.,,,,,BogoBazaar.com,,,,,,,,,,mall,,,Hans Raj Gupta Marg,,28.5489973,77.2357403
+,,,,,node/5744171196,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mall,,,,,28.5520539,77.203913
+,,,,,node/5766365018,,,,,,,,,,,,,,,,,,,,,Taurus Canteen,,,,,,,,,,mall,,,,,28.5849754,77.1365125
+,,,,,node/6930106187,,,,,,,,,,,,,,,,,,,,,Parsvnath Mall Inderlok,,,,,,,,,,mall,,,,,28.6731492,77.1704827
+,,,,,node/8889306940,,,,,,,,,,,,,,,,,,,,,DLF Galleria,,,,,,,,,,mall,,,,,28.5917545,77.2968301
+,,,,,node/8985863062,,,,,,,,,,,,,,,,,,,,,Big Bazaar,,,,,,,,,,mall,,,,,28.6738437,77.1697399
+,,,,,node/11207956208,,,,,,,,,,,,,,,,,,,,,D'mart,,,,,,,,,,mall,,,tughlakabaad metro station,,28.5024431,77.299147
+,,,,,node/11394393343,,,https://www.pacificmalls.in/dwarka/,,,,,,,,,,,,,,,,,,Pacific D21 Mall,,,,,,,,,,mall,,+919953399833,,Mo-Su 11:00-21:30,28.5524351,77.057885
+,,,,,node/11688160167,,,,,,,,,,,,,,,,,,,,,VK Bachat Bazaar,,,,,,,,,,mall,,,,,28.5141181,77.1065363
+,,,,,node/11690594728,,,,,,,,,,,,,,,,,,,,,SHRI BALAJI INTERIOES,,,,,,,,,,mall,,,,,28.6889558,77.2922001
+,,,,,node/11694035170,,,,,,,,,,,,,,,,,,,,,Laxmi Mini Mart,,,,,,Star Mart,,,,mall,,,,,28.5145411,77.1103078
+,,,,,node/11697056533,,,,,,,,,,,,,,,,,,,,,vishal mega mart,,,,,,,,,,mall,,,,,28.5022274,77.283947
+,,,,,node/12596436385,,,,,,,,,,,,,,,,,,,,,VIshal Mega Mart,,,,,,,,,,mall,,,,,28.6667231,77.2869073

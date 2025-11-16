@@ -1,0 +1,343 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-08-27T13:47:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/128565",
+        "admin_level": "8",
+        "border_type": "city",
+        "boundary": "administrative",
+        "gnis:feature_id": "2394501",
+        "name": "Delhi",
+        "source": "TIGER/Line® 2008 Place Shapefiles (http://www.census.gov/geo/www/tiger/)",
+        "tiger:CLASSFP": "C1",
+        "tiger:CPI": "N",
+        "tiger:FUNCSTAT": "A",
+        "tiger:LSAD": "25",
+        "tiger:MTFCC": "G4110",
+        "tiger:NAME": "Delhi",
+        "tiger:NAMELSAD": "Delhi city",
+        "tiger:PCICBSA": "N",
+        "tiger:PCINECTA": "N",
+        "tiger:PLACEFP": "19675",
+        "tiger:PLCIDFP": "1919675",
+        "tiger:STATEFP": "19",
+        "type": "boundary",
+        "wikidata": "Q1917804",
+        "wikipedia": "en:Delhi, Iowa",
+        "@geometry": "bounds"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.3406123,
+              42.4230572
+            ],
+            [
+              -91.3208259,
+              42.4230572
+            ],
+            [
+              -91.3208259,
+              42.4376091
+            ],
+            [
+              -91.3406123,
+              42.4376091
+            ],
+            [
+              -91.3406123,
+              42.4230572
+            ]
+          ]
+        ]
+      },
+      "id": "relation/128565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/132164",
+        "admin_level": "8",
+        "border_type": "town",
+        "boundary": "administrative",
+        "name": "Delhi",
+        "place": "village",
+        "type": "boundary",
+        "wikidata": "Q2571544",
+        "wikipedia": "en:Delhi, Louisiana",
+        "@geometry": "bounds"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.506983,
+              32.434949
+            ],
+            [
+              -91.471765,
+              32.434949
+            ],
+            [
+              -91.471765,
+              32.471221
+            ],
+            [
+              -91.506983,
+              32.471221
+            ],
+            [
+              -91.506983,
+              32.434949
+            ]
+          ]
+        ]
+      },
+      "id": "relation/132164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/137528",
+        "admin_level": "8",
+        "border_type": "city",
+        "boundary": "administrative",
+        "gnis:feature_id": "2394500",
+        "name": "Delhi",
+        "source": "TIGER/Line® 2008 Place Shapefiles (http://www.census.gov/geo/www/tiger/)",
+        "type": "boundary",
+        "wikidata": "Q1924781",
+        "wikipedia": "en:Delhi, Minnesota",
+        "@geometry": "bounds"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.223451,
+              44.592216
+            ],
+            [
+              -95.203144,
+              44.592216
+            ],
+            [
+              -95.203144,
+              44.60357
+            ],
+            [
+              -95.223451,
+              44.60357
+            ],
+            [
+              -95.223451,
+              44.592216
+            ]
+          ]
+        ]
+      },
+      "id": "relation/137528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1942586",
+        "ISO3166-2": "IN-DL",
+        "admin_level": "4",
+        "border_type": "state",
+        "boundary": "administrative",
+        "name": "Delhi",
+        "name:ar": "دلهي",
+        "name:cnr": "Delhi",
+        "name:cs": "Dillí",
+        "name:de": "Delhi",
+        "name:en": "Delhi",
+        "name:es": "Delhi",
+        "name:fr": "Delhi",
+        "name:ga": "Deilí",
+        "name:grc": "Δελίς",
+        "name:hi": "दिल्ली",
+        "name:hr": "Delhi",
+        "name:ja": "デリー",
+        "name:kn": "ದೆಹಲಿ",
+        "name:ks": "دِل",
+        "name:mr": "दिल्ली",
+        "name:or": "ଦିଲ୍ଲୀ",
+        "name:pa": "ਦਿੱਲੀ",
+        "name:ru": "Дели",
+        "name:ta": "டெல்லி",
+        "name:te": "ఢిల్లీ",
+        "name:ug": "دېھلى",
+        "name:uk": "Делі",
+        "name:ur": "دہلی",
+        "name:zh": "德里国家首都辖区",
+        "official_name:de": "Nationales Hauptstadtterritorium Delhi",
+        "official_name:hi": "राष्ट्रीय राजधानी क्षेत्र दिल्ली",
+        "official_name:vi": "Lãnh thổ Thủ đô Quốc gia Delhi",
+        "population": "34,666,000",
+        "ref": "DL",
+        "type": "boundary",
+        "wikidata": "Q1353",
+        "wikipedia": "en:Delhi",
+        "wikipedia:ks": "دِل",
+        "wikipedia:pa": "ਦਿੱਲੀ",
+        "wikipedia:ur": "دہلی",
+        "@geometry": "bounds"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.8388351,
+              28.4046285
+            ],
+            [
+              77.3452524,
+              28.4046285
+            ],
+            [
+              77.3452524,
+              28.8834464
+            ],
+            [
+              76.8388351,
+              28.8834464
+            ],
+            [
+              76.8388351,
+              28.4046285
+            ]
+          ]
+        ]
+      },
+      "id": "relation/1942586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12074535",
+        "admin_level": "9",
+        "boundary": "administrative",
+        "name": "Delhi",
+        "type": "boundary",
+        "@geometry": "bounds"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -117.8679699,
+              33.708633
+            ],
+            [
+              -117.8565061,
+              33.708633
+            ],
+            [
+              -117.8565061,
+              33.7224594
+            ],
+            [
+              -117.8679699,
+              33.7224594
+            ],
+            [
+              -117.8679699,
+              33.708633
+            ]
+          ]
+        ]
+      },
+      "id": "relation/12074535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16503151",
+        "admin_level": "9",
+        "boundary": "administrative",
+        "name": "Delhi",
+        "type": "boundary",
+        "@geometry": "bounds"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              81.3134533,
+              24.7202943
+            ],
+            [
+              81.3425925,
+              24.7202943
+            ],
+            [
+              81.3425925,
+              24.7517298
+            ],
+            [
+              81.3134533,
+              24.7517298
+            ],
+            [
+              81.3134533,
+              24.7202943
+            ]
+          ]
+        ]
+      },
+      "id": "relation/16503151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16507835",
+        "admin_level": "9",
+        "boundary": "administrative",
+        "name": "Delhi",
+        "type": "boundary",
+        "@geometry": "bounds"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              81.5614536,
+              24.6273869
+            ],
+            [
+              81.5837029,
+              24.6273869
+            ],
+            [
+              81.5837029,
+              24.6528365
+            ],
+            [
+              81.5614536,
+              24.6528365
+            ],
+            [
+              81.5614536,
+              24.6273869
+            ]
+          ]
+        ]
+      },
+      "id": "relation/16507835"
+    }
+  ]
+}

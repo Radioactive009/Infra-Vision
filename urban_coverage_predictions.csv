@@ -1,0 +1,10 @@
+zone_id,zone_name,predicted_coverage_score,coverage_label,status,actual_coverage_score,total_parks,total_schools,total_hospitals,total_facilities,total_population
+01,Central,60.43,Good Coverage,good,60.88,1516,502,43,2061,1743244
+02,East,60.08,Good Coverage,good,59.41,1740,550,53,2343,2062128
+03,New Delhi,60.34,Good Coverage,good,60.69,815,272,27,1114,954873
+04,North,60.03,Good Coverage,good,59.73,1790,561,56,2407,2119283
+05,North East,60.31,Good Coverage,good,60.35,1505,500,37,2042,1833197
+06,North West,60.36,Good Coverage,good,60.72,2677,826,70,3573,3095525
+07,South,59.97,Needs Improvement,needs-improvement,59.93,3419,1018,97,4534,4082602
+08,South West,60.04,Good Coverage,good,59.76,1950,605,72,2627,2373149
+09,West,60.03,Good Coverage,good,59.42,2788,894,84,3766,3335935

@@ -1,0 +1,9 @@
+Zone,Traffic_Efficiency_Before,Traffic_Efficiency_After,Commute_Before,Commute_After,Housing_Access_Before,Housing_Access_After,Infra_Util_Before,Infra_Util_After,Pollution_Index_Before,Pollution_Index_After
+New Delhi,45.0,59.1,61.3,45.4,55.0,58.3,46.1,67.1,110.9,86.8
+South Delhi,45.0,57.8,34.6,20.0,78.1,83.8,92.1,90.0,113.6,88.7
+East Delhi,45.0,60.9,59.8,40.9,55.0,62.5,51.2,69.3,112.0,87.7
+North Delhi,45.0,59.3,74.4,55.8,55.0,65.8,54.7,74.0,135.0,108.9
+West Delhi,45.0,59.4,67.0,50.4,55.0,57.7,48.6,67.1,123.4,100.4
+Central Delhi,55.3,69.1,51.0,32.8,55.0,62.8,49.9,67.7,97.9,79.7
+Dwarka,45.0,58.8,39.7,20.4,75.1,81.0,87.7,90.0,138.8,117.4
+Rohini,45.0,57.7,51.7,35.6,55.0,63.1,51.7,70.0,126.5,102.9

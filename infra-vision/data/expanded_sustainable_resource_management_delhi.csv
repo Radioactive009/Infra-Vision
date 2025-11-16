@@ -1,0 +1,291 @@
+Category,Subcategory,Year,Value,Unit,Source/Notes
+Water Management,Daily Water Supply (DJB),2013,927.06,MGD,Simulated based on Delhi Jal Board’s summer supply ~956 MGD
+Water Management,Daily Water Supply (DJB),2014,1020.39,MGD,Simulated based on Delhi Jal Board’s summer supply ~956 MGD
+Water Management,Daily Water Supply (DJB),2015,956.15,MGD,Simulated based on Delhi Jal Board’s summer supply ~956 MGD
+Water Management,Daily Water Supply (DJB),2016,941.4,MGD,Simulated based on Delhi Jal Board’s summer supply ~956 MGD
+Water Management,Daily Water Supply (DJB),2017,994.65,MGD,Simulated based on Delhi Jal Board’s summer supply ~956 MGD
+Water Management,Daily Water Supply (DJB),2018,950.66,MGD,Simulated based on Delhi Jal Board’s summer supply ~956 MGD
+Water Management,Daily Water Supply (DJB),2019,1039.66,MGD,Simulated based on Delhi Jal Board’s summer supply ~956 MGD
+Water Management,Daily Water Supply (DJB),2020,933.65,MGD,Simulated based on Delhi Jal Board’s summer supply ~956 MGD
+Water Management,Daily Water Supply (DJB),2021,998.05,MGD,Simulated based on Delhi Jal Board’s summer supply ~956 MGD
+Water Management,Daily Water Supply (DJB),2022,960.76,MGD,Simulated based on Delhi Jal Board’s summer supply ~956 MGD
+Water Management,Annual Water Supply (DJB),2013,1.45,BCM,Simulated based on Approx. annual production (956 MGD × 365) ≈1.59 BCM
+Water Management,Annual Water Supply (DJB),2014,1.71,BCM,Simulated based on Approx. annual production (956 MGD × 365) ≈1.59 BCM
+Water Management,Annual Water Supply (DJB),2015,1.6,BCM,Simulated based on Approx. annual production (956 MGD × 365) ≈1.59 BCM
+Water Management,Annual Water Supply (DJB),2016,1.55,BCM,Simulated based on Approx. annual production (956 MGD × 365) ≈1.59 BCM
+Water Management,Annual Water Supply (DJB),2017,1.53,BCM,Simulated based on Approx. annual production (956 MGD × 365) ≈1.59 BCM
+Water Management,Annual Water Supply (DJB),2018,1.7,BCM,Simulated based on Approx. annual production (956 MGD × 365) ≈1.59 BCM
+Water Management,Annual Water Supply (DJB),2019,1.56,BCM,Simulated based on Approx. annual production (956 MGD × 365) ≈1.59 BCM
+Water Management,Annual Water Supply (DJB),2020,1.53,BCM,Simulated based on Approx. annual production (956 MGD × 365) ≈1.59 BCM
+Water Management,Annual Water Supply (DJB),2021,1.46,BCM,Simulated based on Approx. annual production (956 MGD × 365) ≈1.59 BCM
+Water Management,Annual Water Supply (DJB),2022,1.59,BCM,Simulated based on Approx. annual production (956 MGD × 365) ≈1.59 BCM
+Water Management,Groundwater Recharge (Total),2013,0.39,BCM,Simulated based on Net annual recharge in Delhi (2023)
+Water Management,Groundwater Recharge (Total),2014,0.35,BCM,Simulated based on Net annual recharge in Delhi (2023)
+Water Management,Groundwater Recharge (Total),2015,0.4,BCM,Simulated based on Net annual recharge in Delhi (2023)
+Water Management,Groundwater Recharge (Total),2016,0.38,BCM,Simulated based on Net annual recharge in Delhi (2023)
+Water Management,Groundwater Recharge (Total),2017,0.38,BCM,Simulated based on Net annual recharge in Delhi (2023)
+Water Management,Groundwater Recharge (Total),2018,0.38,BCM,Simulated based on Net annual recharge in Delhi (2023)
+Water Management,Groundwater Recharge (Total),2019,0.38,BCM,Simulated based on Net annual recharge in Delhi (2023)
+Water Management,Groundwater Recharge (Total),2020,0.42,BCM,Simulated based on Net annual recharge in Delhi (2023)
+Water Management,Groundwater Recharge (Total),2021,0.35,BCM,Simulated based on Net annual recharge in Delhi (2023)
+Water Management,Groundwater Recharge (Total),2022,0.35,BCM,Simulated based on Net annual recharge in Delhi (2023)
+Water Management,Groundwater Extraction (Total),2013,0.3,BCM,Simulated based on Annual groundwater extracted (99% of available)
+Water Management,Groundwater Extraction (Total),2014,0.34,BCM,Simulated based on Annual groundwater extracted (99% of available)
+Water Management,Groundwater Extraction (Total),2015,0.35,BCM,Simulated based on Annual groundwater extracted (99% of available)
+Water Management,Groundwater Extraction (Total),2016,0.33,BCM,Simulated based on Annual groundwater extracted (99% of available)
+Water Management,Groundwater Extraction (Total),2017,0.32,BCM,Simulated based on Annual groundwater extracted (99% of available)
+Water Management,Groundwater Extraction (Total),2018,0.35,BCM,Simulated based on Annual groundwater extracted (99% of available)
+Water Management,Groundwater Extraction (Total),2019,0.36,BCM,Simulated based on Annual groundwater extracted (99% of available)
+Water Management,Groundwater Extraction (Total),2020,0.36,BCM,Simulated based on Annual groundwater extracted (99% of available)
+Water Management,Groundwater Extraction (Total),2021,0.37,BCM,Simulated based on Annual groundwater extracted (99% of available)
+Water Management,Groundwater Extraction (Total),2022,0.34,BCM,Simulated based on Annual groundwater extracted (99% of available)
+Water Management,Wastewater Generation (Daily),2013,823.28,MGD,Simulated based on Estimated sewage generation (~784 MGD)
+Water Management,Wastewater Generation (Daily),2014,768.14,MGD,Simulated based on Estimated sewage generation (~784 MGD)
+Water Management,Wastewater Generation (Daily),2015,783.03,MGD,Simulated based on Estimated sewage generation (~784 MGD)
+Water Management,Wastewater Generation (Daily),2016,770.02,MGD,Simulated based on Estimated sewage generation (~784 MGD)
+Water Management,Wastewater Generation (Daily),2017,756.03,MGD,Simulated based on Estimated sewage generation (~784 MGD)
+Water Management,Wastewater Generation (Daily),2018,747.91,MGD,Simulated based on Estimated sewage generation (~784 MGD)
+Water Management,Wastewater Generation (Daily),2019,743.12,MGD,Simulated based on Estimated sewage generation (~784 MGD)
+Water Management,Wastewater Generation (Daily),2020,843.13,MGD,Simulated based on Estimated sewage generation (~784 MGD)
+Water Management,Wastewater Generation (Daily),2021,832.58,MGD,Simulated based on Estimated sewage generation (~784 MGD)
+Water Management,Wastewater Generation (Daily),2022,763.26,MGD,Simulated based on Estimated sewage generation (~784 MGD)
+Water Management,Wastewater Treatment Capacity,2013,627.16,MGD,Simulated based on Installed STP capacity in Delhi (Mar 2022)
+Water Management,Wastewater Treatment Capacity,2014,618.55,MGD,Simulated based on Installed STP capacity in Delhi (Mar 2022)
+Water Management,Wastewater Treatment Capacity,2015,644.56,MGD,Simulated based on Installed STP capacity in Delhi (Mar 2022)
+Water Management,Wastewater Treatment Capacity,2016,649.95,MGD,Simulated based on Installed STP capacity in Delhi (Mar 2022)
+Water Management,Wastewater Treatment Capacity,2017,590.36,MGD,Simulated based on Installed STP capacity in Delhi (Mar 2022)
+Water Management,Wastewater Treatment Capacity,2018,653.58,MGD,Simulated based on Installed STP capacity in Delhi (Mar 2022)
+Water Management,Wastewater Treatment Capacity,2019,601.79,MGD,Simulated based on Installed STP capacity in Delhi (Mar 2022)
+Water Management,Wastewater Treatment Capacity,2020,670.9,MGD,Simulated based on Installed STP capacity in Delhi (Mar 2022)
+Water Management,Wastewater Treatment Capacity,2021,613.55,MGD,Simulated based on Installed STP capacity in Delhi (Mar 2022)
+Water Management,Wastewater Treatment Capacity,2022,633.04,MGD,Simulated based on Installed STP capacity in Delhi (Mar 2022)
+Energy Usage,Electricity Consumption (Annual),2013,34485.17,Million Units,Simulated based on Total power consumption in FY2022-23
+Energy Usage,Electricity Consumption (Annual),2014,37516.06,Million Units,Simulated based on Total power consumption in FY2022-23
+Energy Usage,Electricity Consumption (Annual),2015,34253.93,Million Units,Simulated based on Total power consumption in FY2022-23
+Energy Usage,Electricity Consumption (Annual),2016,35586.05,Million Units,Simulated based on Total power consumption in FY2022-23
+Energy Usage,Electricity Consumption (Annual),2017,34382.12,Million Units,Simulated based on Total power consumption in FY2022-23
+Energy Usage,Electricity Consumption (Annual),2018,35156.06,Million Units,Simulated based on Total power consumption in FY2022-23
+Energy Usage,Electricity Consumption (Annual),2019,35793.2,Million Units,Simulated based on Total power consumption in FY2022-23
+Energy Usage,Electricity Consumption (Annual),2020,35469.74,Million Units,Simulated based on Total power consumption in FY2022-23
+Energy Usage,Electricity Consumption (Annual),2021,34221.99,Million Units,Simulated based on Total power consumption in FY2022-23
+Energy Usage,Electricity Consumption (Annual),2022,36405.79,Million Units,Simulated based on Total power consumption in FY2022-23
+Energy Usage,Peak Power Demand,2013,7644.82,MW,Simulated based on All-time peak demand (July 2022)
+Energy Usage,Peak Power Demand,2014,8078.14,MW,Simulated based on All-time peak demand (July 2022)
+Energy Usage,Peak Power Demand,2015,7544.15,MW,Simulated based on All-time peak demand (July 2022)
+Energy Usage,Peak Power Demand,2016,7839.89,MW,Simulated based on All-time peak demand (July 2022)
+Energy Usage,Peak Power Demand,2017,7938.21,MW,Simulated based on All-time peak demand (July 2022)
+Energy Usage,Peak Power Demand,2018,7646.66,MW,Simulated based on All-time peak demand (July 2022)
+Energy Usage,Peak Power Demand,2019,7697.65,MW,Simulated based on All-time peak demand (July 2022)
+Energy Usage,Peak Power Demand,2020,7767.76,MW,Simulated based on All-time peak demand (July 2022)
+Energy Usage,Peak Power Demand,2021,7897.87,MW,Simulated based on All-time peak demand (July 2022)
+Energy Usage,Peak Power Demand,2022,7402.84,MW,Simulated based on All-time peak demand (July 2022)
+Energy Usage,Solar Power Installed,2013,253.32,MW,Simulated based on Cumulative solar PV capacity (Sep 2023)
+Energy Usage,Solar Power Installed,2014,258.48,MW,Simulated based on Cumulative solar PV capacity (Sep 2023)
+Energy Usage,Solar Power Installed,2015,246.61,MW,Simulated based on Cumulative solar PV capacity (Sep 2023)
+Energy Usage,Solar Power Installed,2016,265.02,MW,Simulated based on Cumulative solar PV capacity (Sep 2023)
+Energy Usage,Solar Power Installed,2017,275.1,MW,Simulated based on Cumulative solar PV capacity (Sep 2023)
+Energy Usage,Solar Power Installed,2018,260.88,MW,Simulated based on Cumulative solar PV capacity (Sep 2023)
+Energy Usage,Solar Power Installed,2019,228.89,MW,Simulated based on Cumulative solar PV capacity (Sep 2023)
+Energy Usage,Solar Power Installed,2020,254.54,MW,Simulated based on Cumulative solar PV capacity (Sep 2023)
+Energy Usage,Solar Power Installed,2021,235.41,MW,Simulated based on Cumulative solar PV capacity (Sep 2023)
+Energy Usage,Solar Power Installed,2022,276.18,MW,Simulated based on Cumulative solar PV capacity (Sep 2023)
+Energy Usage,Solar Generation (Annual),2013,397.0,Million Units,Simulated based on Approx. solar output (est. 0.4 TWh/year from 255 MW)
+Energy Usage,Solar Generation (Annual),2014,387.97,Million Units,Simulated based on Approx. solar output (est. 0.4 TWh/year from 255 MW)
+Energy Usage,Solar Generation (Annual),2015,414.09,Million Units,Simulated based on Approx. solar output (est. 0.4 TWh/year from 255 MW)
+Energy Usage,Solar Generation (Annual),2016,427.96,Million Units,Simulated based on Approx. solar output (est. 0.4 TWh/year from 255 MW)
+Energy Usage,Solar Generation (Annual),2017,405.19,Million Units,Simulated based on Approx. solar output (est. 0.4 TWh/year from 255 MW)
+Energy Usage,Solar Generation (Annual),2018,387.66,Million Units,Simulated based on Approx. solar output (est. 0.4 TWh/year from 255 MW)
+Energy Usage,Solar Generation (Annual),2019,409.29,Million Units,Simulated based on Approx. solar output (est. 0.4 TWh/year from 255 MW)
+Energy Usage,Solar Generation (Annual),2020,449.78,Million Units,Simulated based on Approx. solar output (est. 0.4 TWh/year from 255 MW)
+Energy Usage,Solar Generation (Annual),2021,402.56,Million Units,Simulated based on Approx. solar output (est. 0.4 TWh/year from 255 MW)
+Energy Usage,Solar Generation (Annual),2022,424.91,Million Units,Simulated based on Approx. solar output (est. 0.4 TWh/year from 255 MW)
+Energy Usage,Waste-to-Energy Capacity,2013,76.29,MW,Simulated based on Installed WTE plant capacity (four plants)
+Energy Usage,Waste-to-Energy Capacity,2014,86.76,MW,Simulated based on Installed WTE plant capacity (four plants)
+Energy Usage,Waste-to-Energy Capacity,2015,89.01,MW,Simulated based on Installed WTE plant capacity (four plants)
+Energy Usage,Waste-to-Energy Capacity,2016,86.06,MW,Simulated based on Installed WTE plant capacity (four plants)
+Energy Usage,Waste-to-Energy Capacity,2017,84.81,MW,Simulated based on Installed WTE plant capacity (four plants)
+Energy Usage,Waste-to-Energy Capacity,2018,82.56,MW,Simulated based on Installed WTE plant capacity (four plants)
+Energy Usage,Waste-to-Energy Capacity,2019,75.63,MW,Simulated based on Installed WTE plant capacity (four plants)
+Energy Usage,Waste-to-Energy Capacity,2020,78.47,MW,Simulated based on Installed WTE plant capacity (four plants)
+Energy Usage,Waste-to-Energy Capacity,2021,79.56,MW,Simulated based on Installed WTE plant capacity (four plants)
+Energy Usage,Waste-to-Energy Capacity,2022,78.88,MW,Simulated based on Installed WTE plant capacity (four plants)
+Energy Usage,Waste-to-Energy Input,2013,6565.87,TPD,Simulated based on MSW processed by WTE plants per day (four sites)
+Energy Usage,Waste-to-Energy Input,2014,6315.9,TPD,Simulated based on MSW processed by WTE plants per day (four sites)
+Energy Usage,Waste-to-Energy Input,2015,7028.68,TPD,Simulated based on MSW processed by WTE plants per day (four sites)
+Energy Usage,Waste-to-Energy Input,2016,6912.89,TPD,Simulated based on MSW processed by WTE plants per day (four sites)
+Energy Usage,Waste-to-Energy Input,2017,5978.35,TPD,Simulated based on MSW processed by WTE plants per day (four sites)
+Energy Usage,Waste-to-Energy Input,2018,6211.33,TPD,Simulated based on MSW processed by WTE plants per day (four sites)
+Energy Usage,Waste-to-Energy Input,2019,6572.21,TPD,Simulated based on MSW processed by WTE plants per day (four sites)
+Energy Usage,Waste-to-Energy Input,2020,6501.52,TPD,Simulated based on MSW processed by WTE plants per day (four sites)
+Energy Usage,Waste-to-Energy Input,2021,7442.78,TPD,Simulated based on MSW processed by WTE plants per day (four sites)
+Energy Usage,Waste-to-Energy Input,2022,6794.78,TPD,Simulated based on MSW processed by WTE plants per day (four sites)
+Solid Waste,MSW Generation (Daily),2013,11304.85,TPD,Simulated based on Delhi city’s total municipal waste generation
+Solid Waste,MSW Generation (Daily),2014,11082.27,TPD,Simulated based on Delhi city’s total municipal waste generation
+Solid Waste,MSW Generation (Daily),2015,10386.3,TPD,Simulated based on Delhi city’s total municipal waste generation
+Solid Waste,MSW Generation (Daily),2016,12101.17,TPD,Simulated based on Delhi city’s total municipal waste generation
+Solid Waste,MSW Generation (Daily),2017,11117.3,TPD,Simulated based on Delhi city’s total municipal waste generation
+Solid Waste,MSW Generation (Daily),2018,11118.46,TPD,Simulated based on Delhi city’s total municipal waste generation
+Solid Waste,MSW Generation (Daily),2019,11348.66,TPD,Simulated based on Delhi city’s total municipal waste generation
+Solid Waste,MSW Generation (Daily),2020,10808.16,TPD,Simulated based on Delhi city’s total municipal waste generation
+Solid Waste,MSW Generation (Daily),2021,10909.98,TPD,Simulated based on Delhi city’s total municipal waste generation
+Solid Waste,MSW Generation (Daily),2022,10932.67,TPD,Simulated based on Delhi city’s total municipal waste generation
+Solid Waste,MSW Processed (Share),2013,55.62,%,"Simulated based on Portion of daily waste treated (approx. 5,775 of 10,500 TPD)"
+Solid Waste,MSW Processed (Share),2014,53.99,%,"Simulated based on Portion of daily waste treated (approx. 5,775 of 10,500 TPD)"
+Solid Waste,MSW Processed (Share),2015,57.13,%,"Simulated based on Portion of daily waste treated (approx. 5,775 of 10,500 TPD)"
+Solid Waste,MSW Processed (Share),2016,56.31,%,"Simulated based on Portion of daily waste treated (approx. 5,775 of 10,500 TPD)"
+Solid Waste,MSW Processed (Share),2017,53.72,%,"Simulated based on Portion of daily waste treated (approx. 5,775 of 10,500 TPD)"
+Solid Waste,MSW Processed (Share),2018,57.22,%,"Simulated based on Portion of daily waste treated (approx. 5,775 of 10,500 TPD)"
+Solid Waste,MSW Processed (Share),2019,51.59,%,"Simulated based on Portion of daily waste treated (approx. 5,775 of 10,500 TPD)"
+Solid Waste,MSW Processed (Share),2020,56.09,%,"Simulated based on Portion of daily waste treated (approx. 5,775 of 10,500 TPD)"
+Solid Waste,MSW Processed (Share),2021,54.19,%,"Simulated based on Portion of daily waste treated (approx. 5,775 of 10,500 TPD)"
+Solid Waste,MSW Processed (Share),2022,51.01,%,"Simulated based on Portion of daily waste treated (approx. 5,775 of 10,500 TPD)"
+Solid Waste,MSW Landfilled (Share),2013,46.42,%,Simulated based on Portion of daily waste sent to landfills (unprocessed)
+Solid Waste,MSW Landfilled (Share),2014,41.99,%,Simulated based on Portion of daily waste sent to landfills (unprocessed)
+Solid Waste,MSW Landfilled (Share),2015,44.14,%,Simulated based on Portion of daily waste sent to landfills (unprocessed)
+Solid Waste,MSW Landfilled (Share),2016,47.7,%,Simulated based on Portion of daily waste sent to landfills (unprocessed)
+Solid Waste,MSW Landfilled (Share),2017,49.02,%,Simulated based on Portion of daily waste sent to landfills (unprocessed)
+Solid Waste,MSW Landfilled (Share),2018,48.38,%,Simulated based on Portion of daily waste sent to landfills (unprocessed)
+Solid Waste,MSW Landfilled (Share),2019,44.93,%,Simulated based on Portion of daily waste sent to landfills (unprocessed)
+Solid Waste,MSW Landfilled (Share),2020,43.73,%,Simulated based on Portion of daily waste sent to landfills (unprocessed)
+Solid Waste,MSW Landfilled (Share),2021,42.1,%,Simulated based on Portion of daily waste sent to landfills (unprocessed)
+Solid Waste,MSW Landfilled (Share),2022,45.15,%,Simulated based on Portion of daily waste sent to landfills (unprocessed)
+Solid Waste,Ghazipur Landfill Overflow,2013,108.05,lakh MT,Simulated based on Exceeded capacity by ~10 million tonnes; >60 m tall
+Solid Waste,Ghazipur Landfill Overflow,2014,102.43,lakh MT,Simulated based on Exceeded capacity by ~10 million tonnes; >60 m tall
+Solid Waste,Ghazipur Landfill Overflow,2015,96.66,lakh MT,Simulated based on Exceeded capacity by ~10 million tonnes; >60 m tall
+Solid Waste,Ghazipur Landfill Overflow,2016,94.96,lakh MT,Simulated based on Exceeded capacity by ~10 million tonnes; >60 m tall
+Solid Waste,Ghazipur Landfill Overflow,2017,96.73,lakh MT,Simulated based on Exceeded capacity by ~10 million tonnes; >60 m tall
+Solid Waste,Ghazipur Landfill Overflow,2018,96.09,lakh MT,Simulated based on Exceeded capacity by ~10 million tonnes; >60 m tall
+Solid Waste,Ghazipur Landfill Overflow,2019,104.91,lakh MT,Simulated based on Exceeded capacity by ~10 million tonnes; >60 m tall
+Solid Waste,Ghazipur Landfill Overflow,2020,101.44,lakh MT,Simulated based on Exceeded capacity by ~10 million tonnes; >60 m tall
+Solid Waste,Ghazipur Landfill Overflow,2021,93.29,lakh MT,Simulated based on Exceeded capacity by ~10 million tonnes; >60 m tall
+Solid Waste,Ghazipur Landfill Overflow,2022,100.04,lakh MT,Simulated based on Exceeded capacity by ~10 million tonnes; >60 m tall
+Solid Waste,Bhalswa Landfill Height,2013,64.65,m,"Simulated based on Second-largest dumpsite (~65 m height, declared exhausted)"
+Solid Waste,Bhalswa Landfill Height,2014,59.66,m,"Simulated based on Second-largest dumpsite (~65 m height, declared exhausted)"
+Solid Waste,Bhalswa Landfill Height,2015,65.56,m,"Simulated based on Second-largest dumpsite (~65 m height, declared exhausted)"
+Solid Waste,Bhalswa Landfill Height,2016,63.36,m,"Simulated based on Second-largest dumpsite (~65 m height, declared exhausted)"
+Solid Waste,Bhalswa Landfill Height,2017,63.47,m,"Simulated based on Second-largest dumpsite (~65 m height, declared exhausted)"
+Solid Waste,Bhalswa Landfill Height,2018,62.11,m,"Simulated based on Second-largest dumpsite (~65 m height, declared exhausted)"
+Solid Waste,Bhalswa Landfill Height,2019,65.98,m,"Simulated based on Second-largest dumpsite (~65 m height, declared exhausted)"
+Solid Waste,Bhalswa Landfill Height,2020,66.55,m,"Simulated based on Second-largest dumpsite (~65 m height, declared exhausted)"
+Solid Waste,Bhalswa Landfill Height,2021,69.05,m,"Simulated based on Second-largest dumpsite (~65 m height, declared exhausted)"
+Solid Waste,Bhalswa Landfill Height,2022,67.81,m,"Simulated based on Second-largest dumpsite (~65 m height, declared exhausted)"
+Solid Waste,Okhla Landfill Height,2013,56.54,m,Simulated based on Reached ~55 m; dumping stopped in 2018 (site under biomining)
+Solid Waste,Okhla Landfill Height,2014,53.16,m,Simulated based on Reached ~55 m; dumping stopped in 2018 (site under biomining)
+Solid Waste,Okhla Landfill Height,2015,57.9,m,Simulated based on Reached ~55 m; dumping stopped in 2018 (site under biomining)
+Solid Waste,Okhla Landfill Height,2016,57.35,m,Simulated based on Reached ~55 m; dumping stopped in 2018 (site under biomining)
+Solid Waste,Okhla Landfill Height,2017,56.85,m,Simulated based on Reached ~55 m; dumping stopped in 2018 (site under biomining)
+Solid Waste,Okhla Landfill Height,2018,52.53,m,Simulated based on Reached ~55 m; dumping stopped in 2018 (site under biomining)
+Solid Waste,Okhla Landfill Height,2019,51.01,m,Simulated based on Reached ~55 m; dumping stopped in 2018 (site under biomining)
+Solid Waste,Okhla Landfill Height,2020,56.89,m,Simulated based on Reached ~55 m; dumping stopped in 2018 (site under biomining)
+Solid Waste,Okhla Landfill Height,2021,58.89,m,Simulated based on Reached ~55 m; dumping stopped in 2018 (site under biomining)
+Solid Waste,Okhla Landfill Height,2022,56.65,m,Simulated based on Reached ~55 m; dumping stopped in 2018 (site under biomining)
+Circular Economy,C&D Waste Generation,2013,3685.36,TPD,Simulated based on Estimated construction & demolition waste generated
+Circular Economy,C&D Waste Generation,2014,3136.91,TPD,Simulated based on Estimated construction & demolition waste generated
+Circular Economy,C&D Waste Generation,2015,3514.49,TPD,Simulated based on Estimated construction & demolition waste generated
+Circular Economy,C&D Waste Generation,2016,3402.89,TPD,Simulated based on Estimated construction & demolition waste generated
+Circular Economy,C&D Waste Generation,2017,3582.05,TPD,Simulated based on Estimated construction & demolition waste generated
+Circular Economy,C&D Waste Generation,2018,3429.87,TPD,Simulated based on Estimated construction & demolition waste generated
+Circular Economy,C&D Waste Generation,2019,3481.06,TPD,Simulated based on Estimated construction & demolition waste generated
+Circular Economy,C&D Waste Generation,2020,3517.61,TPD,Simulated based on Estimated construction & demolition waste generated
+Circular Economy,C&D Waste Generation,2021,3472.99,TPD,Simulated based on Estimated construction & demolition waste generated
+Circular Economy,C&D Waste Generation,2022,3203.66,TPD,Simulated based on Estimated construction & demolition waste generated
+Circular Economy,C&D Waste Recycling Capacity,2013,5137.42,TPD,Simulated based on Installed C&D waste processing capacity (2023-24)
+Circular Economy,C&D Waste Recycling Capacity,2014,5166.63,TPD,Simulated based on Installed C&D waste processing capacity (2023-24)
+Circular Economy,C&D Waste Recycling Capacity,2015,5605.7,TPD,Simulated based on Installed C&D waste processing capacity (2023-24)
+Circular Economy,C&D Waste Recycling Capacity,2016,4831.48,TPD,Simulated based on Installed C&D waste processing capacity (2023-24)
+Circular Economy,C&D Waste Recycling Capacity,2017,5201.84,TPD,Simulated based on Installed C&D waste processing capacity (2023-24)
+Circular Economy,C&D Waste Recycling Capacity,2018,5203.31,TPD,Simulated based on Installed C&D waste processing capacity (2023-24)
+Circular Economy,C&D Waste Recycling Capacity,2019,5002.84,TPD,Simulated based on Installed C&D waste processing capacity (2023-24)
+Circular Economy,C&D Waste Recycling Capacity,2020,5088.3,TPD,Simulated based on Installed C&D waste processing capacity (2023-24)
+Circular Economy,C&D Waste Recycling Capacity,2021,5049.07,TPD,Simulated based on Installed C&D waste processing capacity (2023-24)
+Circular Economy,C&D Waste Recycling Capacity,2022,5201.17,TPD,Simulated based on Installed C&D waste processing capacity (2023-24)
+Circular Economy,Composting Capacity,2013,450.88,TPD,Simulated based on Total centralized compost plant capacity in Delhi
+Circular Economy,Composting Capacity,2014,445.49,TPD,Simulated based on Total centralized compost plant capacity in Delhi
+Circular Economy,Composting Capacity,2015,418.62,TPD,Simulated based on Total centralized compost plant capacity in Delhi
+Circular Economy,Composting Capacity,2016,412.85,TPD,Simulated based on Total centralized compost plant capacity in Delhi
+Circular Economy,Composting Capacity,2017,411.2,TPD,Simulated based on Total centralized compost plant capacity in Delhi
+Circular Economy,Composting Capacity,2018,441.13,TPD,Simulated based on Total centralized compost plant capacity in Delhi
+Circular Economy,Composting Capacity,2019,420.7,TPD,Simulated based on Total centralized compost plant capacity in Delhi
+Circular Economy,Composting Capacity,2020,451.76,TPD,Simulated based on Total centralized compost plant capacity in Delhi
+Circular Economy,Composting Capacity,2021,451.48,TPD,Simulated based on Total centralized compost plant capacity in Delhi
+Circular Economy,Composting Capacity,2022,484.4,TPD,Simulated based on Total centralized compost plant capacity in Delhi
+Circular Economy,Plastic Waste Generation,2013,1137.92,TPD,Simulated based on Plastic waste generated per day in Delhi
+Circular Economy,Plastic Waste Generation,2014,1093.66,TPD,Simulated based on Plastic waste generated per day in Delhi
+Circular Economy,Plastic Waste Generation,2015,1082.69,TPD,Simulated based on Plastic waste generated per day in Delhi
+Circular Economy,Plastic Waste Generation,2016,1099.95,TPD,Simulated based on Plastic waste generated per day in Delhi
+Circular Economy,Plastic Waste Generation,2017,1106.3,TPD,Simulated based on Plastic waste generated per day in Delhi
+Circular Economy,Plastic Waste Generation,2018,1051.09,TPD,Simulated based on Plastic waste generated per day in Delhi
+Circular Economy,Plastic Waste Generation,2019,1104.88,TPD,Simulated based on Plastic waste generated per day in Delhi
+Circular Economy,Plastic Waste Generation,2020,1033.91,TPD,Simulated based on Plastic waste generated per day in Delhi
+Circular Economy,Plastic Waste Generation,2021,1088.45,TPD,Simulated based on Plastic waste generated per day in Delhi
+Circular Economy,Plastic Waste Generation,2022,1078.45,TPD,Simulated based on Plastic waste generated per day in Delhi
+Circular Economy,Plastic Waste Processed,2013,869.07,TPD,Simulated based on Plastic waste recycled/processed daily (~78%)
+Circular Economy,Plastic Waste Processed,2014,806.37,TPD,Simulated based on Plastic waste recycled/processed daily (~78%)
+Circular Economy,Plastic Waste Processed,2015,972.08,TPD,Simulated based on Plastic waste recycled/processed daily (~78%)
+Circular Economy,Plastic Waste Processed,2016,902.52,TPD,Simulated based on Plastic waste recycled/processed daily (~78%)
+Circular Economy,Plastic Waste Processed,2017,872.37,TPD,Simulated based on Plastic waste recycled/processed daily (~78%)
+Circular Economy,Plastic Waste Processed,2018,789.77,TPD,Simulated based on Plastic waste recycled/processed daily (~78%)
+Circular Economy,Plastic Waste Processed,2019,887.05,TPD,Simulated based on Plastic waste recycled/processed daily (~78%)
+Circular Economy,Plastic Waste Processed,2020,845.2,TPD,Simulated based on Plastic waste recycled/processed daily (~78%)
+Circular Economy,Plastic Waste Processed,2021,813.39,TPD,Simulated based on Plastic waste recycled/processed daily (~78%)
+Circular Economy,Plastic Waste Processed,2022,850.01,TPD,Simulated based on Plastic waste recycled/processed daily (~78%)
+Circular Economy,E-Waste Generation,2013,231445.87,tonnes/yr,Simulated based on Delhi’s annual electronic waste output (~2.3 lakh MT)
+Circular Economy,E-Waste Generation,2014,210221.77,tonnes/yr,Simulated based on Delhi’s annual electronic waste output (~2.3 lakh MT)
+Circular Economy,E-Waste Generation,2015,222468.29,tonnes/yr,Simulated based on Delhi’s annual electronic waste output (~2.3 lakh MT)
+Circular Economy,E-Waste Generation,2016,227017.2,tonnes/yr,Simulated based on Delhi’s annual electronic waste output (~2.3 lakh MT)
+Circular Economy,E-Waste Generation,2017,215023.93,tonnes/yr,Simulated based on Delhi’s annual electronic waste output (~2.3 lakh MT)
+Circular Economy,E-Waste Generation,2018,235295.54,tonnes/yr,Simulated based on Delhi’s annual electronic waste output (~2.3 lakh MT)
+Circular Economy,E-Waste Generation,2019,218445.82,tonnes/yr,Simulated based on Delhi’s annual electronic waste output (~2.3 lakh MT)
+Circular Economy,E-Waste Generation,2020,231346.81,tonnes/yr,Simulated based on Delhi’s annual electronic waste output (~2.3 lakh MT)
+Circular Economy,E-Waste Generation,2021,211033.15,tonnes/yr,Simulated based on Delhi’s annual electronic waste output (~2.3 lakh MT)
+Circular Economy,E-Waste Generation,2022,230336.29,tonnes/yr,Simulated based on Delhi’s annual electronic waste output (~2.3 lakh MT)
+Circular Economy,E-Waste Formal Recycling,2013,5.23,%,Simulated based on Proportion of e-waste collected & recycled formally
+Circular Economy,E-Waste Formal Recycling,2014,5.16,%,Simulated based on Proportion of e-waste collected & recycled formally
+Circular Economy,E-Waste Formal Recycling,2015,4.89,%,Simulated based on Proportion of e-waste collected & recycled formally
+Circular Economy,E-Waste Formal Recycling,2016,4.97,%,Simulated based on Proportion of e-waste collected & recycled formally
+Circular Economy,E-Waste Formal Recycling,2017,5.48,%,Simulated based on Proportion of e-waste collected & recycled formally
+Circular Economy,E-Waste Formal Recycling,2018,4.63,%,Simulated based on Proportion of e-waste collected & recycled formally
+Circular Economy,E-Waste Formal Recycling,2019,5.66,%,Simulated based on Proportion of e-waste collected & recycled formally
+Circular Economy,E-Waste Formal Recycling,2020,4.9,%,Simulated based on Proportion of e-waste collected & recycled formally
+Circular Economy,E-Waste Formal Recycling,2021,4.94,%,Simulated based on Proportion of e-waste collected & recycled formally
+Circular Economy,E-Waste Formal Recycling,2022,5.09,%,Simulated based on Proportion of e-waste collected & recycled formally
+Sustainability Indicators,GHG Emissions (Total),2013,51.97,MtCO2e,Simulated based on Approx. annual greenhouse gas emissions (2017–21 avg.)
+Sustainability Indicators,GHG Emissions (Total),2014,50.48,MtCO2e,Simulated based on Approx. annual greenhouse gas emissions (2017–21 avg.)
+Sustainability Indicators,GHG Emissions (Total),2015,56.4,MtCO2e,Simulated based on Approx. annual greenhouse gas emissions (2017–21 avg.)
+Sustainability Indicators,GHG Emissions (Total),2016,54.29,MtCO2e,Simulated based on Approx. annual greenhouse gas emissions (2017–21 avg.)
+Sustainability Indicators,GHG Emissions (Total),2017,51.23,MtCO2e,Simulated based on Approx. annual greenhouse gas emissions (2017–21 avg.)
+Sustainability Indicators,GHG Emissions (Total),2018,44.38,MtCO2e,Simulated based on Approx. annual greenhouse gas emissions (2017–21 avg.)
+Sustainability Indicators,GHG Emissions (Total),2019,46.63,MtCO2e,Simulated based on Approx. annual greenhouse gas emissions (2017–21 avg.)
+Sustainability Indicators,GHG Emissions (Total),2020,55.36,MtCO2e,Simulated based on Approx. annual greenhouse gas emissions (2017–21 avg.)
+Sustainability Indicators,GHG Emissions (Total),2021,52.83,MtCO2e,Simulated based on Approx. annual greenhouse gas emissions (2017–21 avg.)
+Sustainability Indicators,GHG Emissions (Total),2022,50.88,MtCO2e,Simulated based on Approx. annual greenhouse gas emissions (2017–21 avg.)
+Sustainability Indicators,GHG Emissions per Capita,2013,2.21,tCO2e,Simulated based on Per capita CO2-equivalent emissions in Delhi
+Sustainability Indicators,GHG Emissions per Capita,2014,2.46,tCO2e,Simulated based on Per capita CO2-equivalent emissions in Delhi
+Sustainability Indicators,GHG Emissions per Capita,2015,2.17,tCO2e,Simulated based on Per capita CO2-equivalent emissions in Delhi
+Sustainability Indicators,GHG Emissions per Capita,2016,2.25,tCO2e,Simulated based on Per capita CO2-equivalent emissions in Delhi
+Sustainability Indicators,GHG Emissions per Capita,2017,2.29,tCO2e,Simulated based on Per capita CO2-equivalent emissions in Delhi
+Sustainability Indicators,GHG Emissions per Capita,2018,2.25,tCO2e,Simulated based on Per capita CO2-equivalent emissions in Delhi
+Sustainability Indicators,GHG Emissions per Capita,2019,2.22,tCO2e,Simulated based on Per capita CO2-equivalent emissions in Delhi
+Sustainability Indicators,GHG Emissions per Capita,2020,2.08,tCO2e,Simulated based on Per capita CO2-equivalent emissions in Delhi
+Sustainability Indicators,GHG Emissions per Capita,2021,2.26,tCO2e,Simulated based on Per capita CO2-equivalent emissions in Delhi
+Sustainability Indicators,GHG Emissions per Capita,2022,2.33,tCO2e,Simulated based on Per capita CO2-equivalent emissions in Delhi
+Sustainability Indicators,CO2 Avoided by Solar,2013,0.32,MtCO2e/yr,Simulated based on Estimated CO2 reduction from 255 MW solar (0.4 TWh gen.)
+Sustainability Indicators,CO2 Avoided by Solar,2014,0.34,MtCO2e/yr,Simulated based on Estimated CO2 reduction from 255 MW solar (0.4 TWh gen.)
+Sustainability Indicators,CO2 Avoided by Solar,2015,0.3,MtCO2e/yr,Simulated based on Estimated CO2 reduction from 255 MW solar (0.4 TWh gen.)
+Sustainability Indicators,CO2 Avoided by Solar,2016,0.29,MtCO2e/yr,Simulated based on Estimated CO2 reduction from 255 MW solar (0.4 TWh gen.)
+Sustainability Indicators,CO2 Avoided by Solar,2017,0.3,MtCO2e/yr,Simulated based on Estimated CO2 reduction from 255 MW solar (0.4 TWh gen.)
+Sustainability Indicators,CO2 Avoided by Solar,2018,0.3,MtCO2e/yr,Simulated based on Estimated CO2 reduction from 255 MW solar (0.4 TWh gen.)
+Sustainability Indicators,CO2 Avoided by Solar,2019,0.31,MtCO2e/yr,Simulated based on Estimated CO2 reduction from 255 MW solar (0.4 TWh gen.)
+Sustainability Indicators,CO2 Avoided by Solar,2020,0.31,MtCO2e/yr,Simulated based on Estimated CO2 reduction from 255 MW solar (0.4 TWh gen.)
+Sustainability Indicators,CO2 Avoided by Solar,2021,0.3,MtCO2e/yr,Simulated based on Estimated CO2 reduction from 255 MW solar (0.4 TWh gen.)
+Sustainability Indicators,CO2 Avoided by Solar,2022,0.34,MtCO2e/yr,Simulated based on Estimated CO2 reduction from 255 MW solar (0.4 TWh gen.)
+Sustainability Indicators,CO2 Avoided by LEDs,2013,1.48,MtCO2e/yr,Simulated based on CO2 saved by ~13.4 million LED bulbs (1.74 TWh/yr energy saved)
+Sustainability Indicators,CO2 Avoided by LEDs,2014,1.29,MtCO2e/yr,Simulated based on CO2 saved by ~13.4 million LED bulbs (1.74 TWh/yr energy saved)
+Sustainability Indicators,CO2 Avoided by LEDs,2015,1.37,MtCO2e/yr,Simulated based on CO2 saved by ~13.4 million LED bulbs (1.74 TWh/yr energy saved)
+Sustainability Indicators,CO2 Avoided by LEDs,2016,1.37,MtCO2e/yr,Simulated based on CO2 saved by ~13.4 million LED bulbs (1.74 TWh/yr energy saved)
+Sustainability Indicators,CO2 Avoided by LEDs,2017,1.37,MtCO2e/yr,Simulated based on CO2 saved by ~13.4 million LED bulbs (1.74 TWh/yr energy saved)
+Sustainability Indicators,CO2 Avoided by LEDs,2018,1.46,MtCO2e/yr,Simulated based on CO2 saved by ~13.4 million LED bulbs (1.74 TWh/yr energy saved)
+Sustainability Indicators,CO2 Avoided by LEDs,2019,1.34,MtCO2e/yr,Simulated based on CO2 saved by ~13.4 million LED bulbs (1.74 TWh/yr energy saved)
+Sustainability Indicators,CO2 Avoided by LEDs,2020,1.22,MtCO2e/yr,Simulated based on CO2 saved by ~13.4 million LED bulbs (1.74 TWh/yr energy saved)
+Sustainability Indicators,CO2 Avoided by LEDs,2021,1.39,MtCO2e/yr,Simulated based on CO2 saved by ~13.4 million LED bulbs (1.74 TWh/yr energy saved)
+Sustainability Indicators,CO2 Avoided by LEDs,2022,1.53,MtCO2e/yr,Simulated based on CO2 saved by ~13.4 million LED bulbs (1.74 TWh/yr energy saved)

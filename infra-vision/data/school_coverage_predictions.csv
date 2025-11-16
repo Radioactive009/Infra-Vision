@@ -1,0 +1,30 @@
+zone_id,zone_name,predicted_coverage_score,num_schools,total_enrolment,coverage_label,status,true_coverage_score
+01,Central Zone 1,35.0,211,0,Needs Improvement,needs-improvement,35.0
+02,Central Zone 2,35.0,208,0,Needs Improvement,needs-improvement,35.0
+03,Central Zone 3,36.6,131,0,Needs Improvement,needs-improvement,36.6
+04,East Zone 1,37.4,255,0,Needs Improvement,needs-improvement,37.4
+05,East Zone 2,70.1,259,0,Excellent Coverage,excellent,70.1
+06,East Zone 3,36.8,173,0,Needs Improvement,needs-improvement,36.8
+07,New Delhi,77.6,300,0,Excellent Coverage,excellent,77.6
+08,North Zone 1,60.4,170,0,Good Coverage,good,60.4
+09,North Zone 2,58.3,171,0,Good Coverage,good,58.3
+10,North Zone 3,57.9,109,0,Good Coverage,good,57.9
+11,North East Zone 1,35.0,232,0,Needs Improvement,needs-improvement,35.0
+12,North East Zone 2,76.9,256,0,Excellent Coverage,excellent,76.9
+13,North East Zone 3,35.2,199,0,Needs Improvement,needs-improvement,35.2
+14,North West Zone A1,61.0,202,0,Good Coverage,good,61.0
+15,North West Zone A2,59.8,212,0,Good Coverage,good,59.8
+16,North West Zone B1,62.6,207,0,Good Coverage,good,62.6
+17,North West Zone B2,58.1,117,0,Good Coverage,good,58.1
+18,South East Zone 1,71.3,225,0,Excellent Coverage,excellent,71.3
+19,South East Zone 2,68.5,120,0,Good Coverage,good,68.5
+20,South Zone 1,70.1,228,0,Excellent Coverage,excellent,70.1
+21,South Zone 2,67.4,227,0,Good Coverage,good,67.4
+22,South West Zone A1,70.1,172,0,Excellent Coverage,excellent,70.1
+23,South West Zone A2,69.1,166,0,Good Coverage,good,69.1
+24,South West Zone B1,67.1,171,0,Good Coverage,good,67.1
+25,South West Zone B2,62.9,91,0,Good Coverage,good,62.9
+26,West Zone A1,62.9,223,0,Good Coverage,good,62.9
+27,West Zone A2,65.8,218,0,Good Coverage,good,65.8
+28,West Zone A3,60.0,224,0,Good Coverage,good,60.0
+29,West Zone B1,62.2,123,0,Good Coverage,good,62.2

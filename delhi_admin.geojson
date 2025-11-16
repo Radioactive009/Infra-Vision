@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-08-27T13:59:14Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2816412",
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Dwarka",
+        "type": "boundary",
+        "@geometry": "bounds"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0110986,
+              28.5353229
+            ],
+            [
+              77.0802031,
+              28.5353229
+            ],
+            [
+              77.0802031,
+              28.6202208
+            ],
+            [
+              77.0110986,
+              28.6202208
+            ],
+            [
+              77.0110986,
+              28.5353229
+            ]
+          ]
+        ]
+      },
+      "id": "relation/2816412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3529298",
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Paschim Vihar",
+        "type": "boundary",
+        "@geometry": "bounds"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0766825,
+              28.6552794
+            ],
+            [
+              77.1197404,
+              28.6552794
+            ],
+            [
+              77.1197404,
+              28.6808923
+            ],
+            [
+              77.0766825,
+              28.6808923
+            ],
+            [
+              77.0766825,
+              28.6552794
+            ]
+          ]
+        ]
+      },
+      "id": "relation/3529298"
+    }
+  ]
+}

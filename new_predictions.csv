@@ -1,0 +1,3 @@
+zone_id,zone_name,predicted_coverage_score,num_schools,total_enrolment,coverage_label,status
+Dwarka,Dwarka,47.7,38,0,Needs Improvement,needs-improvement
+Paschim Vihar,Paschim Vihar,47.7,21,0,Needs Improvement,needs-improvement

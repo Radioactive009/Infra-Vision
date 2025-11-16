@@ -1,0 +1,30 @@
+zone_id,zone_name,predicted_coverage_score,num_schools,total_enrolment,coverage_label,status,true_coverage_score
+01,East Zone 1,65.2,26,0,Good Coverage,good,65.16666666666667
+02,East Zone 2,65.2,68,0,Good Coverage,good,65.16666666666667
+03,East Zone 3,65.2,27,0,Good Coverage,good,65.16666666666667
+04,North East Zone 1,65.2,50,0,Good Coverage,good,65.16666666666667
+05,North East Zone 2,65.0,45,0,Good Coverage,good,65.16666666666667
+06,North East Zone 3,65.2,46,0,Good Coverage,good,65.16666666666667
+07,North Zone 1,65.2,44,0,Good Coverage,good,65.16666666666667
+08,North Zone 2,62.8,26,0,Good Coverage,good,65.16666666666667
+09,North West Zone A1,65.2,69,0,Good Coverage,good,65.16666666666667
+10,North West Zone A2,65.2,60,0,Good Coverage,good,65.16666666666667
+11,North West Zone B1,65.2,37,0,Good Coverage,good,65.16666666666667
+12,North West Zone B2,65.2,50,0,Good Coverage,good,65.16666666666667
+13,North West Zone B3,65.2,84,0,Good Coverage,good,65.16666666666667
+14,West Zone A1,64.4,21,0,Good Coverage,good,65.16666666666667
+15,West Zone A2,64.8,24,0,Good Coverage,good,65.16666666666667
+16,West Zone A3,61.0,17,0,Good Coverage,good,65.16666666666667
+17,West Zone B1,65.2,46,0,Good Coverage,good,65.16666666666667
+18,West Zone B2,65.2,40,0,Good Coverage,good,65.16666666666667
+19,South West Zone A1,56.2,13,0,Needs Improvement,needs-improvement,65.16666666666667
+20,South West Zone A2,64.8,23,0,Good Coverage,good,65.16666666666667
+21,South West Zone B1,65.2,53,0,Good Coverage,good,65.16666666666667
+22,South West Zone B2,65.2,49,0,Good Coverage,good,65.16666666666667
+23,South Zone 1,65.2,37,0,Good Coverage,good,65.16666666666667
+24,South Zone 2,65.2,36,0,Good Coverage,good,65.16666666666667
+25,South East Zone 1,65.2,41,0,Good Coverage,good,65.16666666666667
+26,New Delhi,54.0,3,0,Needs Improvement,needs-improvement,30.166666666666668
+27,Central Zone 1,62.8,26,0,Good Coverage,good,65.16666666666667
+28,Central Zone 2,59.6,15,0,Needs Improvement,needs-improvement,65.16666666666667
+29,South East Zone 2,65.2,65,0,Good Coverage,good,65.16666666666667

@@ -1,0 +1,30 @@
+zone_id,zone_name,predicted_coverage_score,coverage_label,num_parks,total_area,status,urban_green_balance_index,progress_to_who
+01,South Zone 1,83.4,Excellent Coverage,1039,72.34,excellent,42.0,42.0
+02,South East Zone 1,82.9,Excellent Coverage,566,26.89,excellent,42.0,42.0
+03,South West Zone A2,77.8,Excellent Coverage,707,31.39,excellent,42.0,42.0
+04,East Zone 1,77.4,Excellent Coverage,1058,120.0,excellent,42.0,42.0
+05,South West Zone A1,75.1,Excellent Coverage,1076,120.0,excellent,42.0,42.0
+06,South Zone 2,73.4,Excellent Coverage,1109,120.0,excellent,42.0,42.0
+07,West Zone A2,70.8,Excellent Coverage,1110,120.0,excellent,42.0,42.0
+08,West Zone A1,70.6,Excellent Coverage,1102,120.0,excellent,42.0,42.0
+09,South West Zone B1,42.0,Needs Improvement,642,24.39,needs-improvement,42.0,42.0
+10,North West Zone A2,39.1,Needs Improvement,534,37.12,needs-improvement,42.0,42.0
+11,North West Zone B1,39.0,Needs Improvement,506,34.37,needs-improvement,42.0,42.0
+12,East Zone 2,38.3,Needs Improvement,440,45.87,needs-improvement,42.0,42.0
+13,East Zone 4,38.3,Needs Improvement,479,28.39,needs-improvement,42.0,42.0
+14,South West Zone B2,33.6,Needs Improvement,206,20.83,needs-improvement,42.0,42.0
+15,East Zone 3,33.5,Needs Improvement,740,57.62,needs-improvement,42.0,42.0
+16,South East Zone 2,32.2,Needs Improvement,266,23.94,needs-improvement,42.0,42.0
+17,New Delhi,31.7,Needs Improvement,392,57.25,needs-improvement,42.0,42.0
+18,North West Zone A1,29.9,Needs Improvement,788,120.0,needs-improvement,42.0,42.0
+19,West Zone A3,29.1,Needs Improvement,434,52.16,needs-improvement,42.0,42.0
+20,North Zone 2,24.8,Needs Improvement,602,31.29,needs-improvement,42.0,42.0
+21,North East Zone 3,24.8,Needs Improvement,254,10.97,needs-improvement,42.0,42.0
+22,North East Zone 1,24.8,Needs Improvement,521,35.98,needs-improvement,42.0,42.0
+23,North Zone 1,24.8,Needs Improvement,365,27.38,needs-improvement,42.0,42.0
+24,North West Zone B2,24.8,Needs Improvement,234,15.89,needs-improvement,42.0,42.0
+25,North Zone 3,22.6,Needs Improvement,150,6.87,needs-improvement,42.0,42.0
+26,Central Zone 1,21.4,Needs Improvement,272,23.62,needs-improvement,42.0,42.0
+27,North East Zone 2,21.3,Needs Improvement,155,13.09,needs-improvement,42.0,42.0
+28,Central Zone 2,16.4,Needs Improvement,205,20.11,needs-improvement,42.0,42.0
+29,Central Zone 3,15.0,Needs Improvement,150,23.08,needs-improvement,42.0,42.0

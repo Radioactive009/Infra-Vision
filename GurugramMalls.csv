@@ -1,0 +1,32 @@
+payment:upi,email,air_conditioning,tourism,operator,payment:notes,@geometry,payment:cash,@id,addr:city,building,website,building:levels,roof:shape,addr:state,addr:postcode,landuse,payment:net_banking,payment:google_pay,addr:housenumber,wheelchair,payment:american_express,toilets,barrier,check_date,name,name:en,layer,payment:debit_cards,payment:visa,name:hi,stroller,payment:credit_cards,payment:mastercard,addr:district,currency:INR,shop,area,payment:coins,branch,name_1,phone,addr:street,opening_hours,latitude,longitude
+,,,,,,center,,way/43022517,Gurugram,commercial,,,,,122002,,yes,yes,,,,,,,JMD Regent Plaza,,,,yes,,,yes,yes,,,mall,,,,,9625318281,,Mo-Fr 08:00-18:00,28.47972,77.0885535
+,,,,,,center,,way/44172408,,,,,,,,retail,,,,,,,wall,2025-02-23,Star Mall,,,,,,,,,,,mall,,,,,,,,28.461382,77.0526784
+,,,,,,center,,way/144358732,,yes,,,,,,,,,,,,,,2025-02-23,Grand Mall,,,,,,,,,,,mall,,,,,,,,28.479856,77.0900827
+,,,,,,center,,way/144358733,,yes,,,,,,,,,,,,,,,MGF Mega City,,,,,,,,,,,mall,,,,,,,,28.4796837,77.0894134
+,,,,,,center,,way/144358734,,yes,,,,,,,,,,,,,,,Regent Mall,,,,,,,,,,,mall,,,,,,,,28.4793308,77.09073
+,,,,,,center,,way/144358735,,yes,,,,,,,,,,,,,,,Sahara Mall,,,,,,,,,,,mall,,,,,,,,28.4795772,77.0866588
+,,,,,,center,,way/144358926,,yes,,,,,,,,,,,,,,,DT City Center,,,,,,,,,,,mall,,,,DLF City Center Mall,,,,28.4788004,77.0805481
+,,,,,,center,,way/144358928,,yes,,,,,,,,,,,,,,,MGF Megapolis Mall,,,,,,,,,,,mall,,,,,,,,28.4786609,77.0822958
+,,,,,,center,,way/151993531,,yes,,,,,,,,,,,,,,,Gurgaon Central,,,,,,,,,,,mall,,,,,,,,28.4795661,77.0756468
+yes,,yes,attraction,,yes,center,yes,way/266639968,,yes,,,,,,,,,,yes,yes,yes,,2025-02-23,Gold Souk,Gold Souk,1,yes,yes,,yes,yes,yes,,yes,mall,,yes,,,,,,28.4507445,77.0787181
+,,yes,,Ambience Pvt. Ltd,,center,,way/267001567,Gurugram,retail,,,,,122002,retail,,,,,,,,,Ambience Mall,Ambience Mall,,,,आम्बियंस मॉल,,,,Gurugram,,mall,,,Gurgaon,,0124-4737123,Ambience Island,,28.5041797,77.0967881
+,info@ardeemall.com,,,,,center,,way/272612959,Gurugram,,,,,,122022,retail,,,,,,,,2025-02-23,Ardee Mall,Ardee Mall,,,,,,,,Gurugram,,mall,,,,,+91 124-2806543,"Ardee City Rd, Block B, Ardee City",Mo-Su 11:00-23:00,28.4451642,77.0808033
+,,,,,,center,,way/273714331,,,,,,,,,,,,,,,wall,,AIPL Joy Street,,-2,,,,,,,,,mall,,,,,,,,28.3920893,77.0593765
+,,,,,,center,,way/274212236,Gurgaon,yes,,,,Haryana,122101,,,,,,,,,,Spaze Corporate Park,,,,,,,,,,,mall,,,,,,,,28.3951028,77.0318702
+,,,,,,center,,way/387467888,,yes,,,,,,,,,,,,,,,ILD Mall,,,,,,,,,,,mall,,,,,,,,28.4249152,77.0391127
+,,,,,,center,,way/414912233,,yes,,,,,,,,,,,,,,,Easyday Club,,,,,,,,,,,mall,,,,,,,Mo-Su 07:00-22:00,28.4414581,77.0760783
+,,,,,,center,,way/414924790,,yes,,1,flat,,,,,,,,,,,,,,,,,,,,,,,mall,,,,,,,,28.4251735,77.0683225
+,,,,,,,,node/417741649,,,,,,,,,,,,,,,,,Gurgaon Central Mall,,,,,,,,,,,mall,,,,,,,,28.4795748,77.0757513
+,info@ocusgroup.com,,,,,center,,way/634122978,Gurugram,,https://www.ocusgroup.com/copy-of-ocus-medley,,,,,commercial,,,,,,yes,,,Ocus Quantum,,,,,,,,,,,mall,,,,,+91-9560293335,Sector 51,,28.425131,77.0684556
+,,,,,,center,,way/1076792386,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,mall,,,,,,,,28.513742,77.0268692
+,,,,Dhoot Group,,center,,way/1254261905,Gurugram,,,,,,122001,commercial,,,,,,yes,,,The Esplanade Mall,The Esplanade Mall,,,,,,,,Gurugram,,mall,yes,,,,,Sector 37C,,28.453487,76.9923366
+,,,,,,,,node/1374529955,,,,,,,,,,,,,,,,,MGF Metropolitan,,,,,,,,,,,mall,,,,,,,,28.4807272,77.0802453
+,,,,,,,,node/3068041589,,,,,,,,,,,,,,,,,Hong Kong Bazaar Mall,,,,,,,,,,,mall,,,,,,,,28.4209556,77.0904573
+,,,,,,,,node/3077649257,,,,,,,,,,,,,,,,,the shopping mall,,,,,,,,,,,mall,,,,,,,,28.466522,77.0992613
+,,,,,,,,node/4656583163,,,,,,,,,,,,,,,,,Raheja Mall,,,,,,,,,,,mall,,,,,,,,28.4235511,77.0395058
+,,,,Mahindra Aura,,,,node/9871136023,,,,,,,,,,,,,,,,,Shopping Complex,,,,,,,,,,,mall,,,,,,,,28.513664,77.0268538
+,,,,,,,,node/11331115225,,,,,,,,,,,,,,,,,Mall Fifty One,,,,,,,,,,,mall,,,,,,,,28.4349663,77.068646
+,,,,,,,,node/11436616920,Gurugram,,,,,,122002,,,,NH 8,,,,,,"Ambience Mall, Gurugram",,,,,,,,,Gurugram,,mall,,,,,,"Ambience Island, DLF Phase 3, Sector 24, Gurugram, Haryana",,28.5042019,77.0969541
+,,,,,,,,node/11873060518,,,,,,,,,,,,,,,,,M3M Corner Walk,,,,,,,,,,,mall,,,,,,,,28.4014886,77.0076431
+,,,,,,,,node/11965720309,,,,,,,,,,,,,,,,2024-06-09,Satya The Hive,,,,,,,,,,,mall,,,,,,,,28.4714823,76.9631989
+,,,,,,,,node/12108184294,,,,,,,,,,,,,,,,,,,,,,,,,,,,mall,,,,,,,,28.4797373,77.0885419

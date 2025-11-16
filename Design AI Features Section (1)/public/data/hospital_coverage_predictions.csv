@@ -1,0 +1,8 @@
+zone_id,zone_name,predicted_coverage_score,num_facilities,total_capacity,coverage_label,status
+1,Central,100.0,88,12177,Excellent Coverage,excellent
+2,East,84.0,66,9063,Excellent Coverage,excellent
+3,New Delhi,20.0,2,157,Needs Improvement,needs-improvement
+4,North,75.0,60,9163,Excellent Coverage,excellent
+5,South,35.9,33,4887,Needs Improvement,needs-improvement
+6,Unknown,20.0,1,160,Needs Improvement,needs-improvement
+7,West,55.1,52,7227,Good Coverage,good

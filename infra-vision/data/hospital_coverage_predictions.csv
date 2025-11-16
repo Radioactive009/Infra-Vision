@@ -1,0 +1,30 @@
+zone_id,zone_name,predicted_coverage_score,coverage_label,num_facilities,total_capacity,status
+01,Central Zone 1,74.8,Excellent Coverage,43,3516,excellent
+02,Central Zone 2,74.6,Excellent Coverage,43,3491,excellent
+03,Central Zone 3,72.8,Excellent Coverage,26,2666,excellent
+04,East Zone 1,54.3,Good Coverage,66,5445,good
+05,East Zone 2,53.2,Good Coverage,66,6000,good
+06,East Zone 3,53.5,Good Coverage,47,4000,good
+07,New Delhi,82.9,Excellent Coverage,73,7045,excellent
+08,North Zone 1,60.7,Good Coverage,66,6651,good
+09,North Zone 2,57.3,Good Coverage,66,7333,good
+10,North Zone 3,59.0,Good Coverage,48,5000,good
+11,North East Zone 1,45.9,Needs Improvement,63,6000,needs-improvement
+12,North East Zone 2,49.5,Needs Improvement,64,6000,needs-improvement
+13,North East Zone 3,47.0,Needs Improvement,43,4003,needs-improvement
+14,North West Zone A1,75.8,Excellent Coverage,75,6303,excellent
+15,North West Zone A2,76.9,Excellent Coverage,75,7500,excellent
+16,North West Zone B1,77.1,Excellent Coverage,75,7500,excellent
+17,North West Zone B2,77.3,Excellent Coverage,45,5000,excellent
+18,South East Zone 1,75.7,Excellent Coverage,69,6783,excellent
+19,South East Zone 2,73.5,Excellent Coverage,45,5033,excellent
+20,South Zone 1,77.6,Excellent Coverage,69,5667,excellent
+21,South Zone 2,73.2,Excellent Coverage,68,6502,excellent
+22,South West Zone A1,61.6,Good Coverage,36,3741,good
+23,South West Zone A2,58.5,Good Coverage,36,3975,good
+24,South West Zone B1,59.6,Good Coverage,36,4000,good
+25,South West Zone B2,57.6,Good Coverage,20,2500,good
+26,West Zone A1,75.6,Excellent Coverage,75,7500,excellent
+27,West Zone A2,75.5,Excellent Coverage,75,7132,excellent
+28,West Zone A3,77.5,Excellent Coverage,75,7500,excellent
+29,West Zone B1,77.9,Excellent Coverage,45,5250,excellent
