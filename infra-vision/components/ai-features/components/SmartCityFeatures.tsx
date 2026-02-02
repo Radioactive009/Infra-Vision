@@ -1,16 +1,17 @@
 "use client";
 
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from 'motion/react';
-import { 
-  MapPin, 
-  Route, 
-  BarChart3, 
-  TrendingUp, 
+import {
+  MapPin,
+  Route,
+  BarChart3,
+  TrendingUp,
   Leaf,
   Play,
   ArrowRight,
   Menu,
-  X
+  X,
+  ArrowDown
 } from 'lucide-react';
 import { FeatureCard } from '@/components/ai-features/components/FeatureCard';
 import { PremiumUrbanGrowthCard } from '@/components/ai-features/components/PremiumUrbanGrowthCard';
@@ -74,7 +75,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
   }>>([]);
   const [metricColors, setMetricColors] = useState<string[]>([]);
   const { scrollYProgress } = useScroll();
-  
+
   // Parallax effects
   const heroY = useTransform(scrollYProgress, [0, 0.3], [0, -50]);
   const backgroundY = useTransform(scrollYProgress, [0, 1], [0, -200]);
@@ -82,7 +83,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
   // Generate random values only on client to prevent hydration mismatch
   useEffect(() => {
     setIsClient(true);
-    
+
     // Generate particle data
     const particles = Array.from({ length: 12 }, () => ({
       left: Math.random() * 100,
@@ -99,19 +100,19 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
     const colors = Array.from({ length: 64 }, () => {
       const intensity = Math.random() * 0.8 + 0.2;
       const randomValue = Math.random();
-      
+
       if (activeMetricTab === 'Population') {
-        return randomValue > 0.7 ? `rgba(239,68,68,${intensity})` : 
-               randomValue > 0.4 ? `rgba(59,130,246,${intensity})` : 
-               `rgba(34,197,94,${intensity})`;
+        return randomValue > 0.7 ? `rgba(239,68,68,${intensity})` :
+          randomValue > 0.4 ? `rgba(59,130,246,${intensity})` :
+            `rgba(34,197,94,${intensity})`;
       } else if (activeMetricTab === 'Economy') {
-        return randomValue > 0.6 ? `rgba(245,158,11,${intensity})` : 
-               randomValue > 0.3 ? `rgba(0,168,232,${intensity})` : 
-               `rgba(52,211,153,${intensity})`;
+        return randomValue > 0.6 ? `rgba(245,158,11,${intensity})` :
+          randomValue > 0.3 ? `rgba(0,168,232,${intensity})` :
+            `rgba(52,211,153,${intensity})`;
       } else {
-        return randomValue > 0.5 ? `rgba(100,116,139,${intensity})` : 
-               randomValue > 0.3 ? `rgba(14,165,233,${intensity})` : 
-               `rgba(6,182,212,${intensity})`;
+        return randomValue > 0.5 ? `rgba(100,116,139,${intensity})` :
+          randomValue > 0.3 ? `rgba(14,165,233,${intensity})` :
+            `rgba(6,182,212,${intensity})`;
       }
     });
     setMetricColors(colors);
@@ -125,11 +126,11 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
   useEffect(() => {
     if (typeof window !== 'undefined') {
       setWindowSize({ width: window.innerWidth, height: window.innerHeight });
-      
+
       const handleResize = () => {
         setWindowSize({ width: window.innerWidth, height: window.innerHeight });
       };
-      
+
       window.addEventListener('resize', handleResize);
       return () => window.removeEventListener('resize', handleResize);
     }
@@ -140,11 +141,11 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
-    
+
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-    
+
     const handleMouseMove = (e: MouseEvent) => {
       mouseX.set(e.clientX);
       mouseY.set(e.clientY);
@@ -152,7 +153,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
 
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('mousemove', handleMouseMove);
-    
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('mousemove', handleMouseMove);
@@ -163,11 +164,10 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
     <div className="min-h-screen bg-white relative overflow-hidden">
       {/* Premium Header & Navigation */}
       <motion.header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled 
-            ? 'bg-white/95 backdrop-blur-lg border-b border-gray-200/20 shadow-lg' 
-            : 'bg-transparent'
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
+          ? 'bg-white/95 backdrop-blur-lg border-b border-gray-200/20 shadow-lg'
+          : 'bg-transparent'
+          }`}
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6 }}
@@ -175,7 +175,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <motion.div 
+            <motion.div
               className="text-2xl font-bold bg-gradient-to-r from-[#00A8E8] to-[#34D399] bg-clip-text text-transparent"
               whileHover={{ scale: 1.05 }}
             >
@@ -184,7 +184,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              {['Features', 'How It Works', 'Metrics', 'Testimonials'].map((item) => (
+              {['Features', 'Metrics', 'Testimonials'].map((item) => (
                 <motion.a
                   key={item}
                   href={`#${item.toLowerCase().replace(' ', '-')}`}
@@ -202,15 +202,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
               ))}
             </nav>
 
-            {/* CTA Button */}
-            <motion.div className="hidden md:block" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button 
-                className="bg-gradient-to-r from-[#00A8E8] to-[#34D399] hover:from-[#0EA5E9] hover:to-[#22C55E] text-white px-6 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-                suppressHydrationWarning
-              >
-                Get a Demo
-              </Button>
-            </motion.div>
+
 
             {/* Mobile Menu Button */}
             <button
@@ -230,7 +222,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
             className="md:hidden bg-white/95 backdrop-blur-lg border-t border-gray-200/20"
           >
             <div className="px-6 py-4 space-y-4">
-              {['Features', 'How It Works', 'Metrics', 'Testimonials'].map((item) => (
+              {['Features', 'Metrics', 'Testimonials'].map((item) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase().replace(' ', '-')}`}
@@ -240,9 +232,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                   {item}
                 </a>
               ))}
-              <Button className="w-full bg-gradient-to-r from-[#00A8E8] to-[#34D399] text-white rounded-full">
-                Get a Demo
-              </Button>
+
             </div>
           </motion.div>
         )}
@@ -251,7 +241,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
       {/* Premium Hero Section */}
       <section className="relative min-h-screen flex items-center overflow-hidden">
         {/* Deep Luxury Gradient Background */}
-        <motion.div 
+        <motion.div
           className="absolute inset-0"
           style={{
             background: 'linear-gradient(135deg, #0B1120 0%, #1E293B 60%, #0EA5E9 100%)',
@@ -269,7 +259,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
         />
 
         {/* Radial Spotlight Behind Heading */}
-        <div 
+        <div
           className="absolute inset-0"
           style={{
             background: 'radial-gradient(ellipse 800px 600px at 25% 50%, rgba(14,165,233,0.15) 0%, transparent 70%)',
@@ -318,7 +308,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <motion.h1 
+            <motion.h1
               className="text-5xl lg:text-6xl font-bold mb-6 leading-tight relative"
               style={{ color: '#FFFFFF' }}
               initial={{ opacity: 0, y: 30 }}
@@ -344,79 +334,40 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                 />
               </span>
             </motion.h1>
-            
-            <motion.p 
+
+            <motion.p
               className="text-xl mb-8 leading-relaxed max-w-xl"
               style={{ color: '#FFFFFF' }}
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.16 }}
             >
-              Transform urban development with cutting-edge artificial intelligence. 
+              Transform urban development with cutting-edge artificial intelligence.
               Our platform delivers intelligent insights for sustainable, efficient, and future-ready cities.
             </motion.p>
 
-            {/* Hero CTAs */}
-            <motion.div 
-              className="flex flex-col sm:flex-row gap-4"
-              initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.24 }}
+            {/* Scroll Down Indicator */}
+            <motion.div
+              className="flex flex-col items-start mt-8"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
             >
-              <motion.div 
-                whileHover={{ scale: 1.02 }} 
-                whileTap={{ scale: 0.95 }}
+              <span className="text-white/60 text-sm font-medium tracking-widest uppercase mb-4">
+                Scroll Down
+              </span>
+              <motion.div
+                animate={{ y: [0, 10, 0] }}
+                transition={{
+                  duration: 2,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }}
               >
-                <Button 
-                  size="lg" 
-                  className="relative bg-gradient-to-r from-[#0EA5E9] to-[#34D399] text-white px-8 py-4 rounded-full shadow-2xl font-semibold transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-[#0EA5E9]/25"
-                  style={{
-                    boxShadow: '0 8px 32px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.1)'
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.boxShadow = '0 12px 40px rgba(0,0,0,0.4), 0 0 30px rgba(14,165,233,0.5), 0 0 0 1px rgba(255,255,255,0.2)';
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.boxShadow = '0 8px 32px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.1)';
-                  }}
-                  suppressHydrationWarning
-                >
-                  Get a Demo
-                  <ArrowRight className="ml-2 w-5 h-5" />
-                </Button>
-              </motion.div>
-              
-              <motion.div 
-                whileHover={{ scale: 1.05 }} 
-                whileTap={{ scale: 0.95 }}
-              >
-                <Button 
-                  size="lg" 
-                  variant="outline" 
-                  className="border-white/30 px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:shadow-lg"
-                  style={{
-                    backgroundColor: 'rgba(255,255,255,0.08)',
-                    backdropFilter: 'blur(16px)',
-                    color: '#FFFFFF',
-                    borderColor: 'rgba(14,165,233,0.4)'
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.15)';
-                    e.currentTarget.style.borderColor = 'rgba(14,165,233,0.6)';
-                    e.currentTarget.style.boxShadow = '0 0 20px rgba(14,165,233,0.3)';
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.08)';
-                    e.currentTarget.style.borderColor = 'rgba(14,165,233,0.4)';
-                    e.currentTarget.style.boxShadow = 'none';
-                  }}
-                  suppressHydrationWarning
-                >
-                  <Play className="mr-2 w-5 h-5" />
-                  Explore Features
-                </Button>
+                <ArrowDown className="w-6 h-6 text-[#34D399]" />
               </motion.div>
             </motion.div>
+
           </motion.div>
 
           {/* Hero Visual - Futuristic Glass Tiles */}
@@ -433,48 +384,48 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
             <div className="w-full h-96 relative">
               <div className="grid grid-cols-3 gap-4 h-full">
                 {[
-                  { 
-                    icon: BarChart3, 
+                  {
+                    icon: BarChart3,
                     delay: 0.5,
                     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydCUyMGNpdHklMjBkYXNoYm9hcmQlMjBhbmFseXRpY3MlMjBzY3JlZW5zfGVufDF8fHx8MTc1NzkxNDU1NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                   },
-                  { 
-                    icon: MapPin, 
+                  {
+                    icon: MapPin,
                     delay: 0.6,
                     image: "https://images.unsplash.com/photo-1558368399-3d5fe0e460f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydCUyMGNpdHklMjByb2FkcyUyMHVyYmFuJTIwaW5mcmFzdHJ1Y3R1cmV8ZW58MXx8fHwxNzU3OTE0NTU3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                   },
-                  { 
-                    icon: Leaf, 
+                  {
+                    icon: Leaf,
                     delay: 0.7,
                     image: "https://images.unsplash.com/photo-1552750691-3174d623f8e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHJlbmV3YWJsZSUyMGVuZXJneSUyMHNtYXJ0JTIwY2l0eXxlbnwxfHx8fDE3NTc5MTQ1NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                   },
-                  { 
-                    icon: TrendingUp, 
+                  {
+                    icon: TrendingUp,
                     delay: 0.8,
                     image: "https://images.unsplash.com/photo-1566262258598-53deb7089bf8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaXR5JTIwc2t5bGluZSUyMG5pZ2h0JTIwZnV0dXJpc3RpY3xlbnwxfHx8fDE3NTc5MTQ1NjN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                   },
-                  { 
-                    icon: Route, 
+                  {
+                    icon: Route,
                     delay: 0.9,
                     image: "https://images.unsplash.com/photo-1558899367-3cd83fb31ed8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFmZmljJTIwZmxvdyUyMHNtYXJ0JTIwdHJhbnNwb3J0YXRpb258ZW58MXx8fHwxNzU3OTE0NTY2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                   },
-                  { 
-                    icon: BarChart3, 
+                  {
+                    icon: BarChart3,
                     delay: 1.0,
                     image: "https://images.unsplash.com/photo-1725203653092-494c7eec1a30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydCUyMGNpdHklMjB0ZWNobm9sb2d5JTIwZGlnaXRhbHxlbnwxfHx8fDE3NTc5MTQ1Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                   },
-                  { 
-                    icon: MapPin, 
+                  {
+                    icon: MapPin,
                     delay: 1.1,
                     image: "https://images.unsplash.com/photo-1719460672237-4253bfabb5c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1cmJhbiUyMGJ1aWxkaW5ncyUyMG1vZGVybiUyMGFyY2hpdGVjdHVyZXxlbnwxfHx8fDE3NTc5MTQ1NzN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                   },
-                  { 
-                    icon: TrendingUp, 
+                  {
+                    icon: TrendingUp,
                     delay: 1.2,
                     image: "https://images.unsplash.com/photo-1756701781600-12a63ab571fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaXR5JTIwZGV2ZWxvcG1lbnQlMjBncm93dGglMjB1cmJhbiUyMHBsYW5uaW5nfGVufDF8fHx8MTc1NzkxNDU3Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                   },
-                  { 
-                    icon: Leaf, 
+                  {
+                    icon: Leaf,
                     delay: 1.3,
                     image: "https://images.unsplash.com/photo-1542800952-e5471ed41326?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGNpdHklMjBzdXN0YWluYWJpbGl0eSUyMHBhcmtzJTIwbmF0dXJlfGVufDF8fHx8MTc1NzkxNDU3OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                   }
@@ -487,13 +438,13 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={{ opacity: 1, scale: 1.05 }}
                       transition={{ duration: 0.6, delay: tile.delay }}
-                      whileHover={{ 
+                      whileHover={{
                         y: -4,
                         transition: { duration: 0.2 }
                       }}
                     >
                       {/* Premium City Photo Tile */}
-                      <div 
+                      <div
                         className="w-full h-full rounded-[20px] relative overflow-hidden"
                         style={{
                           backgroundImage: `url(${tile.image})`,
@@ -511,12 +462,12 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                             padding: '2px'
                           }}
                           initial={{ opacity: 0.3 }}
-                          whileHover={{ 
+                          whileHover={{
                             opacity: 0.8,
                             boxShadow: '0 0 30px rgba(0,168,232,0.5), 0 0 60px rgba(52,211,153,0.3)'
                           }}
                         >
-                          <div 
+                          <div
                             className="w-full h-full rounded-[18px]"
                             style={{
                               backgroundImage: `url(${tile.image})`,
@@ -527,7 +478,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                         </motion.div>
 
                         {/* Dark Glass Gradient Overlay */}
-                        <div 
+                        <div
                           className="absolute inset-0 rounded-[20px]"
                           style={{
                             background: 'linear-gradient(135deg, rgba(0,0,0,0.4) 0%, transparent 70%)'
@@ -542,7 +493,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                             backgroundSize: 'cover',
                             backgroundPosition: 'center'
                           }}
-                          whileHover={{ 
+                          whileHover={{
                             scale: 1.05,
                             transition: { duration: 0.3 }
                           }}
@@ -589,7 +540,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
       {/* Key Features Section */}
       <section id="features" className="py-24 bg-white relative">
         <div className="max-w-7xl mx-auto px-6">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -619,11 +570,11 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                 index={index}
                 onClick={
                   index === 0 ? onInfrastructureAnalyze :
-                  index === 1 ? onRoadHousingPlanning :
-                  index === 2 ? onDataVisualization :
-                  index === 3 ? onUrbanGrowthPatterns :
-                  index === 4 ? onSustainabilityGreenPlanning :
-                  undefined
+                    index === 1 ? onRoadHousingPlanning :
+                      index === 2 ? onDataVisualization :
+                        index === 3 ? onUrbanGrowthPatterns :
+                          index === 4 ? onSustainabilityGreenPlanning :
+                            undefined
                 }
                 isClickable={index === 0 || index === 1 || index === 2 || index === 3 || index === 4}
               />
@@ -635,7 +586,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
       {/* How It Works Section */}
       <section id="how-it-works" className="py-24 bg-gradient-to-br from-gray-50 to-gray-100 relative">
         <div className="max-w-7xl mx-auto px-6">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -651,7 +602,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
           <div className="relative">
             {/* Connecting Line */}
             <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-[#00A8E8] to-[#34D399] rounded-full opacity-30"></div>
-            
+
             <div className="space-y-16">
               {[
                 {
@@ -661,7 +612,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                   icon: BarChart3
                 },
                 {
-                  number: "02", 
+                  number: "02",
                   title: "AI Analysis",
                   description: "Our advanced algorithms analyze patterns and identify optimization opportunities.",
                   icon: TrendingUp
@@ -721,7 +672,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
       {/* Live Metrics Showcase */}
       <section id="metrics" className="py-24 bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -737,22 +688,21 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
               {['Population', 'Economy', 'Infrastructure'].map((category) => (
                 <motion.button
                   key={category}
-                  className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
-                    activeMetricTab === category
-                      ? 'bg-gradient-to-r from-[#00A8E8] to-[#34D399] text-white' 
-                      : 'bg-[#F5F7FA] text-gray-600 hover:bg-gradient-to-r hover:from-[#00A8E8] hover:to-[#34D399] hover:text-white'
-                  }`}
+                  className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${activeMetricTab === category
+                    ? 'bg-gradient-to-r from-[#00A8E8] to-[#34D399] text-white'
+                    : 'bg-[#F5F7FA] text-gray-600 hover:bg-gradient-to-r hover:from-[#00A8E8] hover:to-[#34D399] hover:text-white'
+                    }`}
                   style={{
                     boxShadow: activeMetricTab === category
-                      ? '0 4px 12px rgba(0,0,0,0.12), 0 0 20px rgba(0,168,232,0.3)' 
+                      ? '0 4px 12px rgba(0,0,0,0.12), 0 0 20px rgba(0,168,232,0.3)'
                       : '0 4px 12px rgba(0,0,0,0.12)',
                     backdropFilter: 'blur(16px)'
                   }}
                   onClick={() => setActiveMetricTab(category as 'Population' | 'Economy' | 'Infrastructure')}
-                  whileHover={{ 
+                  whileHover={{
                     scale: 1.03,
                     boxShadow: activeMetricTab === category
-                      ? '0 6px 16px rgba(0,0,0,0.15), 0 0 30px rgba(0,168,232,0.4)' 
+                      ? '0 6px 16px rgba(0,0,0,0.15), 0 0 30px rgba(0,168,232,0.4)'
                       : '0 6px 16px rgba(0,0,0,0.15), 0 0 20px rgba(0,168,232,0.3)'
                   }}
                   whileTap={{ scale: 0.95 }}
@@ -765,7 +715,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
           </motion.div>
 
           {/* Animated Dashboards */}
-          <motion.div 
+          <motion.div
             key={activeMetricTab}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -793,22 +743,22 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                   {/* Grid Lines */}
                   <defs>
                     <pattern id="grid" width="40" height="20" patternUnits="userSpaceOnUse">
-                      <path d="M 40 0 L 0 0 0 20" fill="none" stroke="#f1f5f9" strokeWidth="1"/>
+                      <path d="M 40 0 L 0 0 0 20" fill="none" stroke="#f1f5f9" strokeWidth="1" />
                     </pattern>
                   </defs>
                   <rect width="100%" height="100%" fill="url(#grid)" />
-                  
+
                   {/* Chart Path */}
                   <motion.path
                     d={
                       activeMetricTab === 'Population' ? "M 0,150 Q 80,120 160,100 Q 240,85 320,70 Q 360,60 400,50" :
-                      activeMetricTab === 'Economy' ? "M 0,160 Q 100,110 200,90 Q 300,75 400,60" :
-                      "M 0,140 Q 120,100 240,85 Q 320,75 400,65"
+                        activeMetricTab === 'Economy' ? "M 0,160 Q 100,110 200,90 Q 300,75 400,60" :
+                          "M 0,140 Q 120,100 240,85 Q 320,75 400,65"
                     }
                     stroke={
                       activeMetricTab === 'Population' ? "url(#populationGradient)" :
-                      activeMetricTab === 'Economy' ? "url(#economyGradient)" :
-                      "url(#infrastructureGradient)"
+                        activeMetricTab === 'Economy' ? "url(#economyGradient)" :
+                          "url(#infrastructureGradient)"
                     }
                     strokeWidth="3"
                     fill="none"
@@ -816,24 +766,24 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                     animate={{ pathLength: 1 }}
                     transition={{ duration: 2, ease: "easeInOut" }}
                   />
-                  
+
                   {/* Area Fill */}
                   <motion.path
                     d={
                       activeMetricTab === 'Population' ? "M 0,150 Q 80,120 160,100 Q 240,85 320,70 Q 360,60 400,50 L 400,200 L 0,200 Z" :
-                      activeMetricTab === 'Economy' ? "M 0,160 Q 100,110 200,90 Q 300,75 400,60 L 400,200 L 0,200 Z" :
-                      "M 0,140 Q 120,100 240,85 Q 320,75 400,65 L 400,200 L 0,200 Z"
+                        activeMetricTab === 'Economy' ? "M 0,160 Q 100,110 200,90 Q 300,75 400,60 L 400,200 L 0,200 Z" :
+                          "M 0,140 Q 120,100 240,85 Q 320,75 400,65 L 400,200 L 0,200 Z"
                     }
                     fill={
                       activeMetricTab === 'Population' ? "url(#populationAreaGradient)" :
-                      activeMetricTab === 'Economy' ? "url(#economyAreaGradient)" :
-                      "url(#infrastructureAreaGradient)"
+                        activeMetricTab === 'Economy' ? "url(#economyAreaGradient)" :
+                          "url(#infrastructureAreaGradient)"
                     }
                     initial={{ pathLength: 0, opacity: 0 }}
                     animate={{ pathLength: 1, opacity: 1 }}
                     transition={{ duration: 2.2, ease: "easeInOut", delay: 0.3 }}
                   />
-                  
+
                   {/* Data Points */}
                   {[
                     { x: 80, y: activeMetricTab === 'Population' ? 120 : activeMetricTab === 'Economy' ? 110 : 100 },
@@ -849,8 +799,8 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                       fill="white"
                       stroke={
                         activeMetricTab === 'Population' ? "#00A8E8" :
-                        activeMetricTab === 'Economy' ? "#F59E0B" :
-                        "#64748B"
+                          activeMetricTab === 'Economy' ? "#F59E0B" :
+                            "#64748B"
                       }
                       strokeWidth="2"
                       initial={{ scale: 0 }}
@@ -859,7 +809,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                       whileHover={{ scale: 1.5, transition: { duration: 0.2 } }}
                     />
                   ))}
-                  
+
                   {/* Gradients */}
                   <defs>
                     {/* Population Gradients */}
@@ -871,7 +821,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                       <stop offset="0%" stopColor="rgba(0,168,232,0.2)" />
                       <stop offset="100%" stopColor="rgba(52,211,153,0.05)" />
                     </linearGradient>
-                    
+
                     {/* Economy Gradients */}
                     <linearGradient id="economyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
                       <stop offset="0%" stopColor="#F59E0B" />
@@ -883,7 +833,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                       <stop offset="50%" stopColor="rgba(0,168,232,0.15)" />
                       <stop offset="100%" stopColor="rgba(52,211,153,0.05)" />
                     </linearGradient>
-                    
+
                     {/* Infrastructure Gradients */}
                     <linearGradient id="infrastructureGradient" x1="0%" y1="0%" x2="100%" y2="0%">
                       <stop offset="0%" stopColor="#64748B" />
@@ -897,7 +847,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                     </linearGradient>
                   </defs>
                 </svg>
-                
+
                 {/* Metric Labels */}
                 <div className="absolute bottom-2 left-2 right-2 flex justify-between text-xs text-gray-500">
                   <span>Jan</span>
@@ -929,7 +879,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                   <span className="hidden sm:inline">Low</span>
                 </div>
               </div>
-              
+
               <div className="grid grid-cols-8 gap-1 md:gap-2 h-48 md:h-64">
                 {isClient && metricColors.length > 0 ? (
                   metricColors.map((backgroundColor, i) => (
@@ -939,15 +889,15 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                       style={{ backgroundColor }}
                       initial={{ opacity: 0, scale: 0 }}
                       animate={{ opacity: 1, scale: 1 }}
-                      transition={{ 
-                        duration: 0.3, 
+                      transition={{
+                        duration: 0.3,
                         delay: i * 0.01,
                         type: "spring",
                         stiffness: 400,
                         damping: 17
                       }}
-                      whileHover={{ 
-                        scale: 1.2, 
+                      whileHover={{
+                        scale: 1.2,
                         zIndex: 10,
                         boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
                         transition: { duration: 0.2 }
@@ -964,22 +914,22 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                   ))
                 )}
               </div>
-              
+
               {/* Geographic Labels */}
               <div className="grid grid-cols-2 gap-4 mt-4 text-xs text-gray-600">
                 <div className="text-left">
                   <span className="block font-medium">
-                    {activeMetricTab === 'Population' ? 'Downtown Core' : 
-                     activeMetricTab === 'Economy' ? 'Business District' : 
-                     'Infrastructure Hub'}
+                    {activeMetricTab === 'Population' ? 'Downtown Core' :
+                      activeMetricTab === 'Economy' ? 'Business District' :
+                        'Infrastructure Hub'}
                   </span>
                   <span>High Density</span>
                 </div>
                 <div className="text-right">
                   <span className="block font-medium">
-                    {activeMetricTab === 'Population' ? 'Residential Areas' : 
-                     activeMetricTab === 'Economy' ? 'Commercial Zones' : 
-                     'Utility Networks'}
+                    {activeMetricTab === 'Population' ? 'Residential Areas' :
+                      activeMetricTab === 'Economy' ? 'Commercial Zones' :
+                        'Utility Networks'}
                   </span>
                   <span>Moderate Density</span>
                 </div>
@@ -992,7 +942,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
       {/* Testimonials Section */}
       <section id="testimonials" className="py-24 bg-gradient-to-br from-gray-50 to-gray-100">
         <div className="max-w-7xl mx-auto px-6">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -1014,14 +964,14 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                 rating: 5
               },
               {
-                name: "Marcus Johnson", 
+                name: "Marcus Johnson",
                 role: "Urban Development, Toronto",
                 content: "We've reduced planning time by 60% while improving decision quality. Absolutely game-changing.",
                 rating: 5
               },
               {
                 name: "Elena Rodriguez",
-                role: "Smart City Director, Barcelona", 
+                role: "Smart City Director, Barcelona",
                 content: "The sustainability features helped us create more environmentally conscious development plans.",
                 rating: 5
               }
@@ -1067,7 +1017,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
       {/* Premium CTA Band */}
       <section className="relative py-24 overflow-hidden">
         {/* Gradient Background with Rays */}
-        <motion.div 
+        <motion.div
           className="absolute inset-0"
           style={{
             background: 'linear-gradient(135deg, #00A8E8 0%, #0EA5E9 50%, #34D399 100%)',
@@ -1083,16 +1033,16 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
           }}
         >
           {/* Subtle Rays */}
-          <div className="absolute inset-0" 
-               style={{
-                 background: 'radial-gradient(circle at 30% 20%, rgba(255,255,255,0.1) 1px, transparent 1px), radial-gradient(circle at 70% 80%, rgba(255,255,255,0.1) 1px, transparent 1px)',
-                 backgroundSize: '100px 100px, 150px 150px'
-               }}>
+          <div className="absolute inset-0"
+            style={{
+              background: 'radial-gradient(circle at 30% 20%, rgba(255,255,255,0.1) 1px, transparent 1px), radial-gradient(circle at 70% 80%, rgba(255,255,255,0.1) 1px, transparent 1px)',
+              backgroundSize: '100px 100px, 150px 150px'
+            }}>
           </div>
         </motion.div>
 
         <div className="relative max-w-4xl mx-auto px-6 text-center">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -1100,7 +1050,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
           >
             Ready to Transform Your City?
           </motion.h2>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -1110,7 +1060,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
             Join thousands of cities already using our AI platform to build smarter, more sustainable urban environments.
           </motion.p>
 
-          <motion.div 
+          <motion.div
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
@@ -1118,7 +1068,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
             style={{ opacity: 1 }}
           >
             <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
-              <Button 
+              <Button
                 size="lg"
                 className="bg-white text-[#00A8E8] hover:bg-gray-100 px-12 py-4 rounded-full shadow-2xl font-semibold text-lg transition-all duration-300"
                 suppressHydrationWarning
@@ -1127,8 +1077,8 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </motion.div>
-            
-            <motion.a 
+
+            <motion.a
               href="#"
               className="text-white/90 hover:text-white font-medium underline-offset-4 hover:underline transition-all duration-200"
               whileHover={{ y: -2 }}
@@ -1143,7 +1093,7 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
       <footer className="bg-gray-900 text-white relative">
         {/* Accent Bar */}
         <div className="h-1 bg-gradient-to-r from-[#00A8E8] to-[#34D399]"></div>
-        
+
         <div className="max-w-7xl mx-auto px-6 py-16">
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             {/* Logo & Description */}
@@ -1196,8 +1146,8 @@ export function SmartCityFeatures({ onInfrastructureAnalyze, onRoadHousingPlanni
             <div className="max-w-md mx-auto text-center">
               <h4 className="font-semibold mb-4">Stay Updated</h4>
               <div className="flex gap-3">
-                <input 
-                  type="email" 
+                <input
+                  type="email"
                   placeholder="Enter your email"
                   className="flex-1 px-4 py-3 rounded-full bg-gray-800 border border-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00A8E8]"
                   suppressHydrationWarning
